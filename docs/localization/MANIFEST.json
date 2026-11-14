@@ -1103,6 +1103,38 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/statechart/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "f5a64a8db4b8a5957ac5e76e051b1823cecd4d5e",
+      "source_sha256": "010b7b4532406739b1c3a426d1a45f02bb618a42561fc96b3976e064a7f8384d",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "77b37da282e1ffbaf036b5539d2a0d70fcc57aa9f4c66c48f1cbeb60af3f13b6",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/statechart/references/render.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "5ef0519d6f7ae97ef7befceaf174f94f52dd42f5",
+      "source_sha256": "8cca446eb0c8f87f2ef7b97c4b149f59aacdc153134b4217c4bcde09b10ac3c4",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "c99263cb939b3eb9faad0c9492873d30d7bc87a2f006f17e1cf8d6a6ac5feeaa",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/statechart/scripts/backends/cfg.ts",
       "source_mode": "100644",
       "source_type": "blob",
@@ -6691,7 +6723,7 @@
   "summary": {
     "原样机器内容": 407,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 85,
+    "自然语言与机器片段混合": 87,
     "代码说明注释": 1
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
