@@ -498,6 +498,54 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/poteto-help/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "789227c04cd66c137b15dbb6767139ebc7828586",
+      "source_sha256": "950ce2914611906a8bfcc6e063f6b717e76e1abbe75e9d4fb5b6fdc986b9942c",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "b82f891759f254dc75f3fcdefdcf21ed5568d8a08b4a9688148790eefb9f2280",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/poteto-help/references/prompting.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "6b72b2e6081fdb78a3261bd77cf7334596d1ee20",
+      "source_sha256": "463f450c44a60afd001a2f69fdf8a5dea174351f339369b12ec3c41515e564d3",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "b2e67f12c9be97a7fcb7cd99d01453e597c92ecb717e29ee58b05281befec966",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/poteto-help/references/recipes.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "cc7a4e6828f5bfc3bcbf5954876358074718f45c",
+      "source_sha256": "5323aca73a39a3b607c2bb22cd33551fe893563dfd4b104df838da010e9fc702",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "37aa7467dd2c791e5cb544d4bf7839286d1b83ac1ff58aa6ff4a4ca073618858",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/principle-attack-the-premise/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -1378,7 +1426,7 @@
   "summary": {
     "原样机器内容": 2,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 82,
+    "自然语言与机器片段混合": 85,
     "代码说明注释": 1
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
