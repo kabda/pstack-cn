@@ -546,6 +546,38 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/why/references/sources/code-archaeology.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "e3555f809da0a5654ceefe7d2c20080397c03506",
+      "source_sha256": "a4a3970e9db448054aed676f3f7feeee667b4b69f0bd57c8fd72b751be687cc7",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "5c3e302ae515a58fa6249d9bc6082ebf0d977bd671948ecdf65559209fdd99f7",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/why/references/sources/incident-postmortem.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "e7397e7ef374bee3b7f0018ac8e5ddd4322bab12",
+      "source_sha256": "bf2661f1a81c37700884a45b77d6289be0c802b065febced31990e6564510839",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "973159713e1954c21d2d135ee3657b5ddf7fc5cd3b571988d46090ae15fa1ca4",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/why/references/synthesizer-prompt.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -565,7 +597,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 33
+    "自然语言与机器片段混合": 35
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
