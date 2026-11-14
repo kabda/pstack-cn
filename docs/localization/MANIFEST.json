@@ -320,6 +320,22 @@
       "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
+      "path": "docs/harness/claude-code.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "bf154e6464a6cca96a9627bbe10a628092e8c09e",
+      "source_sha256": "c79e2283d3a83c6be3dd1cac33f9c074067c95e610ae6e0a16d9fdee84058927",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "4fc63d326b7c943b4c6c32bb31bcee410cd12db92ed44e8d0f68f53993d1ed2c",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/architect/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -7636,7 +7652,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 124,
+    "自然语言与机器片段混合": 125,
     "原样图像": 6,
     "代码说明注释": 4
   },
