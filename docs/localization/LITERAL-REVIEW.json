@@ -891,6 +891,116 @@
       },
       "status": "已裁定",
       "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 8,
+        "language": "text",
+        "source_sha256": "60fae7793a4ad99cd2960c68bb3401e90b4d460a0187896bc70f1453f054d716",
+        "target_sha256": "0aabad24a7cfadd1903d1cd6399bebccd8adb471e25dcf59f11b5cb25c551d95"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 9,
+        "language": "text",
+        "source_sha256": "4f26552d7cca449e0b8f32fcc7c6dcfb2ed613a7615b3479332c60535988cd89",
+        "target_sha256": "10d0ac190ff7e619a2c1226ceee40ba340679b4b8e6a9f723a8930b92e774def"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 10,
+        "language": "text",
+        "source_sha256": "cef9b9df5901680a240112dc19882e9d747f9b02e34928dfc164a75bb89e534b",
+        "target_sha256": "2e0c3a7d7ce9ec17751eb9395279987b9419525a8ced498520bf0a0385e69d80"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 11,
+        "language": "text",
+        "source_sha256": "3658f4ae2e93ab3a5833c9696325d10f17258a6d5df1007061a2be63cbbf4f8b",
+        "target_sha256": "30b0400c0f7a27a1e7107b2852593dadd4f39a55030fad4cea43cfd2f9254b39"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 12,
+        "language": "text",
+        "source_sha256": "f5f5c29985cf1151df02381a4798bb1df7addf3ec13936b27c342c242f171e7c",
+        "target_sha256": "b0e3a3d252b24f90103ddcfb6a8dacbddd6b4f06f29c4488597d55aebef5b9c0"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 13,
+        "language": "text",
+        "source_sha256": "d358bb433bd8719a7da1ab6e718f1c7de43200e802aacd0b131942f61b249227",
+        "target_sha256": "17d442f85479942cb3d1b007e6854c263a5a37ea334a30afaa1a26a3bcf9b735"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "fcfe7b0f8252f4504619cfeb8f6dd0d71c522c799e15f310b67df907061de369",
+        "target_sha256": "f21f7b4c0386dc1a5bc407982ee17fd4798db1c013f6aaf5b4a2290c247a5052"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 2,
+        "language": "mermaid",
+        "source_sha256": "1b06e4445598f3b756204416cc6127157f8db76493ae05e076d47397b8c49e27",
+        "target_sha256": "45d5f9148e7bda7d8a42dd2a494593263802046ecdbc0dfb4c24216740464746"
+      },
+      "status": "已裁定",
+      "reason": "说明性图表，仅翻译状态、箭头和展示标签；删除展示标签后节点、形状、边和其余语法完全一致。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "48f3db6e8ba3bd5ae2a8b5d7dacbf170f9d9641bd8c294ae3addcce75d9c1678",
+        "target_sha256": "6b80d85f4a4aed69ff167f06d4ca4dfff803ccd398c560f0520d34312958cf0f"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 4,
+        "language": "text",
+        "source_sha256": "c39cb1986b70a17bbc26df35f30a9bbe9050a1c21da7b5363fc06de72f23601c",
+        "target_sha256": "1d7068e731f399386b7a0b6e2f29c14530266ad7efa9efb2e11add993cbc3370"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
     }
   ],
   "numbers": [],
