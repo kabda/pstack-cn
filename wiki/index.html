@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pstack 简体中文译本</title>
+<style>
+:root{color-scheme:light dark;--bg:#faf9f6;--fg:#242a2e;--muted:#54616b;--line:#d9dfe2;--accent:#165b65;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.85 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}main{max-width:1080px;margin:auto;padding:54px 28px 72px}header{border-bottom:1px solid var(--line);padding-bottom:30px}h1{font-size:clamp(32px,5vw,52px);line-height:1.3;margin:10px 0}h2{font-size:26px;margin-top:46px}h3{font-size:19px;margin:0 0 8px}p{margin:12px 0}a{color:var(--accent);text-underline-offset:4px}code{font:0.87em/1.6 ui-monospace,monospace;background:#e6edef;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}nav ul{display:flex;gap:12px 28px;flex-wrap:wrap;padding:0;list-style:none}.lead{font-size:20px;max-width:850px}.meta{color:var(--muted);font-size:14px;overflow-wrap:anywhere}.note{border-left:4px solid var(--accent);padding:12px 20px;background:var(--card)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}figure{margin:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card)}figure img{display:block;width:100%;height:auto}figcaption{padding:20px}footer{margin-top:52px;border-top:1px solid var(--line);padding-top:20px;color:var(--muted);font-size:14px}li{margin:6px 0}table{border-collapse:collapse;width:100%}th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.scroll{overflow-x:auto}
+@media(max-width:700px){main{padding:28px 20px 48px}.grid{grid-template-columns:1fr}nav ul{gap:8px 20px}}
+@media(prefers-color-scheme:dark){:root{--bg:#172126;--fg:#e4ecef;--muted:#acbdc6;--line:#40525b;--accent:#80cbd2;--card:#203038}code{background:#30444d}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<p class="meta">独立镜像 · 简体中文本地化 · 插件 0.15.36</p>
+<h1>pstack 简体中文译本</h1>
+<p class="lead">想要快，先深入。阅读完整中文技能、操作手册和参考材料，同时保留 pstack 的工程结构、名称与调用方式。</p>
+<p class="meta">固定源 commit：<code>9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6</code><br>本次本地化日期：2026-11-14</p>
+</header>
+<nav aria-label="页面导航"><ul><li><a href="#read">阅读入口</a></li><li><a href="#use">使用译本</a></li><li><a href="#source">来源与署名</a></li><li><a href="#images">图片中文解读</a></li><li><a href="#language">为何保留英文</a></li></ul></nav>
+<section id="read">
+<h2>从这里阅读</h2>
+<div class="scroll"><table><thead><tr><th scope="col">内容</th><th scope="col">入口</th></tr></thead><tbody>
+<tr><td>总览、原安装说明、全部技能及原则</td><td><a href="../README.md">README.md</a></td></tr>
+<tr><td>从设置到第一个任务、验证与持续运行</td><td><a href="../docs/guide/README.md">pstack 指南</a></td></tr>
+<tr><td>主要任务入口与二十三份操作手册</td><td><a href="../skills/poteto-mode/SKILL.md">poteto-mode</a></td></tr>
+<tr><td>根据任务选择技能和提示词</td><td><a href="../skills/poteto-help/SKILL.md">poteto-help</a></td></tr>
+<tr><td>Claude Code 的名称和能力对应关系</td><td><a href="../docs/harness/claude-code.md">Claude Code 适配说明</a></td></tr>
+<tr><td>尚未启用的 Slack 问题分诊与复现资料包</td><td><a href="../automations/benny/README.md">benny 说明</a></td></tr>
+</tbody></table></div>
+<p>原有 Markdown 均在原路径全文翻译，技能参考材料和模板也一并保留。阅读软件需支持 Markdown；本页面可以直接用浏览器打开。</p>
+</section>
+<section id="use">
+<h2>使用这份中文译本</h2>
+<p>当前交付位于本地工作区 <code>/Users/zxj/Developer/open-source/pstack-cn</code>。你可以从上面的入口阅读，也可以在 <code>skills/&lt;name&gt;/SKILL.md</code> 中查阅某项技能及其相对路径引用。</p>
+<p>仓库名称为 <code>pstack-cn</code>，工程内部仍叫 <code>pstack</code>。技能、Agent、包名和命令命名空间没有改名，例如 <code>/poteto-mode</code>；Claude Code 的插件调用示例仍是 <code>/pstack:poteto-mode</code>。技能之间的依赖按 README 的表格保留，导入时应一起考虑。</p>
+<div class="note"><p>README 中的 <code>npx skills add backnotprop/pstack</code> 指向原镜像；<code>/add-plugin pstack</code> 及 <code>pstack@cursor-plugins</code> 指向原插件来源。这些命令保留原本含义，不能据此认为会安装中文译本。</p><p>本次没有发布中文仓库、安装或启用插件，也没有在各宿主中验证中文目录的安装流程。因此这里不提供声称已验证可用的中文远程安装命令。若要接入本地译文，请按所用宿主支持的本地技能加载方式，选用本工作区的技能文件，并核对上述依赖和相对路径。</p></div>
+<p>文档中的自动化、外部消息、提交、合并和部署步骤是技能材料，不会因你阅读本译本而被执行。benny 仍须完成其配置、显式授权和线程安全检查后才能启用。</p>
+</section>
+<section id="source">
+<h2>来源、版本与署名</h2>
+<p>本译本以 <a href="https://github.com/backnotprop/pstack">backnotprop/pstack</a> 的固定提交为源；该项目是 <a href="https://github.com/cursor/plugins/tree/main/pstack">cursor/plugins/pstack</a> 的独立镜像（standalone mirror）。保留 Poteto、Lauren Tan、镜像维护者 backnotprop 及相关贡献者署名。镜像维护者不代表全部内容的原作者。</p>
+<p>正文已经中文翻译。README 的 <code>mirror:start</code> 和 <code>mirror:end</code> 原同步标记仍保留；其中关于英文原文“unchanged”的说明描述的是源镜像基线，不能理解为本中文正文未经修改。版本和来源链接均保持固定基线含义。</p>
+<p>许可证、版权及法律声明保留原文，见 <a href="../LICENSE">LICENSE</a>。镜像维护关系见 <a href="../MIRROR.md">MIRROR.md</a>，历史同步记录见 <a href="../SYNC-LOG.md">SYNC-LOG.md</a>。</p>
+</section>
+<section id="images">
+<h2>图片中文解读</h2>
+<p>原始 PNG/JPG 文件和文件名保持不变。下列说明覆盖图中的关键文字与含义，无需依赖英文图片理解流程。<code>assets/logo.png</code> 是戴眼镜的长发卡通人物吃烤红薯的品牌图，没有需要翻译的英文。</p>
+<div class="grid">
+<figure><img src="../docs/guide/images/router.jpg" alt="调度员将机器人车分派到不同工作流程；中文解读见下方" loading="lazy"><figcaption><h3>统一入口与路由</h3><p><code>/poteto-mode</code> 是统一入口。BUG FIX、FEATURE、INVESTIGATION 分别指缺陷修复、功能开发、调查。SAY THE GOAL 是“说明目标”，playbook: matched 是“操作手册：已匹配”。说清目标，由智能体选择流程。</p></figcaption></figure>
+<figure><img src="../docs/guide/images/understanding.jpg" alt="侦探研究蓝图，机器人整理证据；中文解读见下方" loading="lazy"><figcaption><h3>先理解机制与历史</h3><p><code>/how</code> 回答“如何工作”，<code>/why</code> 回答“为何如此”。TRACE IT FIRST 是“先追踪清楚”，evidence: cited 是“证据：已引用来源”。改动前先读懂机制、历史并提供证据。</p></figcaption></figure>
+<figure><img src="../docs/guide/images/design.jpg" alt="三个机器人分别制作桥梁方案，裁判检查；中文解读见下方" loading="lazy"><figcaption><h3>设计、比较与对抗审查</h3><p>三个方案对应 <code>/architect</code>、<code>/arena</code> 和 <code>/interrogate</code>。BREAK IT 是“尝试击破它”，candidates: 3 是“三个候选方案”。先设计并行备选方案，再比较和审查。</p></figcaption></figure>
+<figure><img src="../docs/guide/images/verification.jpg" alt="飞机实际穿过测试航线，旁边有计时、录像和清单；中文解读见下方" loading="lazy"><figcaption><h3>验证真实产物</h3><p>PROVE IT 是“证明它”，REAL THING ONLY 是“只验证真实产物”，verify: pass 是“验证：通过”，evidence: captured 是“证据：已捕获”。编译成功不能代替真实行为证据。</p></figcaption></figure>
+<figure><img src="../docs/guide/images/overnight.jpg" alt="人离开后机器人继续工作并更新日志；中文解读见下方" loading="lazy"><figcaption><h3>明确完成条件的持续运行</h3><p>DECISION LOG 是“决策日志”，BUILD LOOP ACTIVE 是“构建循环正在运行”，DONE = CHECKS PASS 是“完成 = 检查通过”，agents: 4 running 是“四个智能体正在运行”。<code>/loop</code> 保留为原命令。图意是通过明确条件、持续检查和日志支持自主运行。</p></figcaption></figure>
+<figure><img src="../docs/guide/images/recipes.jpg" alt="机器人按配方做菜，由人检查成品；中文解读见下方" loading="lazy"><figcaption><h3>复用配方并反复检查</h3><p>图上 <code>/how</code>、<code>/tdd</code>、<code>/loop</code> 是原命令。RECIPES 是“配方”，FOCUS BUILD REPEAT 是“专注、构建、重复”，context: guarded 是“上下文：受到保护”。复用明确提示词与工程习惯，执行并检查。</p></figcaption></figure>
+</div>
+<p>镜像页眉和赞助卡 SVG 的自然文字、标题与无障碍描述已译。品牌 pstack、Plannotator、Inbox，以及命令、链接和图形关系保持原样。</p>
+</section>
+<section id="language">
+<h2>为什么仍能看到英文</h2>
+<p>API、CLI、MCP、JSON、YAML、TLA+、TLC、Mermaid、Git 等规范与产品专名保留英文；命令、路径、配置键、技能 ID、占位符、模型 slug、协议标签和精确 UI 选择器也保持兼容。需要按原文输入的标签和模板结构配有中文解释。</p>
+<p><code>technical-writing</code> 和 <code>unslop</code> 包含英语语法与写作正反例，因此保留原例并提供中文解读。<code>teach</code> 及部分提示词的原文明确要求英语表达，译文忠实保留这一要求；本次没有改写技能的语言策略。</p>
+<p>测试、快照、TLC 输出及状态图测试语料保留原字节，其中的英文是机器验证内容。许可证和版权原文、原始署名与来源 URL 同样保留。维护清单、术语表和实际验证记录位于 <a href="../docs/localization/BASELINE.md">docs/localization/</a>。</p>
+</section>
+<footer>本页面是中文阅读入口。完整译文以原路径文件为准；研发与本地化验证细节见 <a href="../docs/localization/VALIDATION.md">验收记录</a>。</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "translate_docs",
+  "initial_translator": "root",
+  "independent": true,
+  "review_status": "通过",
+  "open_issues": [],
+  "files": [
+    {
+      "path": "wiki/index.html",
+      "target_sha256": "478e15c84a839444de921280d3248c8fcf86a3f3e448ad5612358aa565da3c45",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    }
+  ],
+  "browser_checks": {
+    "local_file_only": true,
+    "desktop_viewport": [
+      1280,
+      960
+    ],
+    "mobile_viewport": [
+      375,
+      812
+    ],
+    "desktop_scroll_width": 1280,
+    "mobile_scroll_width": 375,
+    "mobile_overflow_elements": [],
+    "wiki_images_loaded": 6,
+    "navigation_targets_found": 5,
+    "svg_text_inside_viewport": 6,
+    "external_services_accessed": false
+  },
+  "content_delta_review": {
+    "reviewer": "translate_docs",
+    "status": "通过",
+    "scope": "仅新增语言策略说明段，逐项对照固定源 teach/SKILL.md、poteto-help/references/prompting.md，以及 technical-writing/unslop 英语写作例句",
+    "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+    "layout_changed": false,
+    "screenshots_rerun": false,
+    "html_reparsed": true,
+    "open_issues": []
+  }
+}
