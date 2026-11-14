@@ -114,6 +114,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "docs/guide/04-design.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "9da6470a919ca21ef3e4786e08c997b69b6c5255",
+      "source_sha256": "2421f2793303a2cb02aabac5ecdc4bfafb5e68024a28123f4f134cc7df4a5211",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "affdedae2331a432879abaf80d425a5fdf1d74b9744131cd992925e6c8902b88",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "docs/guide/README.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -128,6 +144,19 @@
       "initial_translator": "translate_docs",
       "reviewer": "translate_mode",
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "docs/guide/images/design.jpg",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "f86909437f8b5a83da3cba7bc35a018c9d4887c8",
+      "source_sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f",
+      "category": "原样图像",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "保留二进制原图；另提供中文解读。",
+      "target_sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
       "path": "docs/guide/images/router.jpg",
@@ -7472,8 +7501,8 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 117,
-    "原样图像": 2,
+    "自然语言与机器片段混合": 118,
+    "原样图像": 3,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
