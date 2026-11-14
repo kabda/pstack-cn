@@ -1111,6 +1111,116 @@
       },
       "status": "已裁定",
       "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 6,
+        "language": "text",
+        "source_sha256": "e5ed307a6416350942a86048416d7adcdec1b1daf5a7ddf2109aefac0a6b170e",
+        "target_sha256": "43a131eea0f929b5c61a20aef4785a9160147b3e279785854cdc226f602f5b3c"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 7,
+        "language": "text",
+        "source_sha256": "e38279b0a954932f16855b052d507ad68e3a68881109a90a5c1b1491886c0fc7",
+        "target_sha256": "e0a870619243aef46c2c396aed3a5114a760e7744534cfde52c15e8ca6c90e02"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 8,
+        "language": "text",
+        "source_sha256": "a350810a6cf29774570d2e3b4ab9fda4c3cb9a044fbc58989c819e75e499ad67",
+        "target_sha256": "e6ef709634cf97a694b005856bb5999449d67c52bd490e73da9fd72dfc4e6622"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "0b94731035537796bad19c22aae24c983b5cd2312d56a233b5f14f999a29c093",
+        "target_sha256": "5d951d2001ed1b8d022d85863eac1bae3027b6e6eda385f6cdf66e03b3950ac4"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "0a03bc78e6be0e3ba537e0ace05009b6a45d2683c3cfaec6b5ee8a10d5b4ea64",
+        "target_sha256": "6e0181cfb5707960d849496fb65ce6b4f4dc75078823f4aad8f9ba3dd107a511"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。 最终补回原文 plain English 的英语限定，独立审校者已复核通过。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "c5d54f6a40b59429a6a5438f706fa1e6417a571e25a3e4a940b08a59010a6dce",
+        "target_sha256": "92d2f0ea70c1df9bdd86ee8ff30ed65f1c8a813d5330ebb8f25b915f30bc5040"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 4,
+        "language": "text",
+        "source_sha256": "b3771d24ef69c325c4f3b21b1363876b65c6fe238de82ea96b78bd296ab43ba1",
+        "target_sha256": "daf2b875206d9008fe5fbf09096111e9a0d9935eca3300e6a9037850bcbd6fc5"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "6d127a7a67910ac1bc73008da03089587b3732ca527655787b1032a75cd01e40",
+        "target_sha256": "9d4cd00f98293a151dd041ec3e326976a34293d1b7aa83e3bbe34f0acfde14e9"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 6,
+        "language": "text",
+        "source_sha256": "ae0bd436a0ae8431314aaf1d8a516b32d3a19e143995a5cd81ea0542ff7f1c69",
+        "target_sha256": "6e43cec1eddaa91a7fdf0249b8cf634011fc2be41aebbb8a35466e6e9fd90d33"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 7,
+        "language": "text",
+        "source_sha256": "b681387f23df1de9746ecb8e53309ec2a6f877ecdebf798b95ce587d161121a0",
+        "target_sha256": "37a3d92cff280d3b092115350fa07bf1a1db66bc31a020ab9cec8f6ef09becf3"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
     }
   ],
   "numbers": [],

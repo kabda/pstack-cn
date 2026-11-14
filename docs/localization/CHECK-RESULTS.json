@@ -837,6 +837,96 @@
       "target_sha256": "3dc1e56fd74dff3f0bd30173df01164b748fb53671cdf3383f4b8fce2c687d56",
       "source_preview": "/poteto-mode write a skill for verifying database migrations in this repo",
       "target_preview": "/poteto-mode 编写一项技能，用于验证这个仓库的数据库迁移"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 6,
+      "language": "text",
+      "source_sha256": "e5ed307a6416350942a86048416d7adcdec1b1daf5a7ddf2109aefac0a6b170e",
+      "target_sha256": "43a131eea0f929b5c61a20aef4785a9160147b3e279785854cdc226f602f5b3c",
+      "source_preview": "/technical-writing review the readme changes",
+      "target_preview": "/technical-writing 审查 readme 中的改动"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 7,
+      "language": "text",
+      "source_sha256": "e38279b0a954932f16855b052d507ad68e3a68881109a90a5c1b1491886c0fc7",
+      "target_sha256": "e0a870619243aef46c2c396aed3a5114a760e7744534cfde52c15e8ca6c90e02",
+      "source_preview": "/poteto-mode run the eval playbook on this skill change. same task for both variants, candidates stay blind.",
+      "target_preview": "/poteto-mode 对这项技能改动运行评估（eval）操作手册。两个变体使用同一任务，候选方保持盲测。"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 8,
+      "language": "text",
+      "source_sha256": "a350810a6cf29774570d2e3b4ab9fda4c3cb9a044fbc58989c819e75e499ad67",
+      "target_sha256": "e6ef709634cf97a694b005856bb5999449d67c52bd490e73da9fd72dfc4e6622",
+      "source_preview": "/poteto-mode update the review skill so it flags missing migrations, and eval the change.",
+      "target_preview": "/poteto-mode 更新审查技能，让它标记缺失的迁移，并评估改动。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 1,
+      "language": "text",
+      "source_sha256": "0b94731035537796bad19c22aae24c983b5cd2312d56a233b5f14f999a29c093",
+      "target_sha256": "5d951d2001ed1b8d022d85863eac1bae3027b6e6eda385f6cdf66e03b3950ac4",
+      "source_preview": "use /how first to understand how this initialization works. then use /why to figure out why it broke recently.",
+      "target_preview": "先用 /how 理解这个初始化如何工作，再用 /why 弄清它最近为何出错。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 2,
+      "language": "text",
+      "source_sha256": "0a03bc78e6be0e3ba537e0ace05009b6a45d2683c3cfaec6b5ee8a10d5b4ea64",
+      "target_sha256": "6e0181cfb5707960d849496fb65ce6b4f4dc75078823f4aad8f9ba3dd107a511",
+      "source_preview": "/poteto-mode read this thread. restate the underlying issue in your own words, in plain english. don't change any code yet.",
+      "target_preview": "/poteto-mode 阅读这个讨论串。用自己的话，以通俗英语复述根本问题。暂时不要修改任何代码。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 3,
+      "language": "text",
+      "source_sha256": "c5d54f6a40b59429a6a5438f706fa1e6417a571e25a3e4a940b08a59010a6dce",
+      "target_sha256": "92d2f0ea70c1df9bdd86ee8ff30ed65f1c8a813d5330ebb8f25b915f30bc5040",
+      "source_preview": "/sharpen write the onboarding doc for the new billing service.",
+      "target_preview": "/sharpen 为新的计费服务编写入门文档。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 4,
+      "language": "text",
+      "source_sha256": "b3771d24ef69c325c4f3b21b1363876b65c6fe238de82ea96b78bd296ab43ba1",
+      "target_sha256": "daf2b875206d9008fe5fbf09096111e9a0d9935eca3300e6a9037850bcbd6fc5",
+      "source_preview": "/poteto-mode prototype a few options for the settings layout. put them behind a switcher and send me screenshots of each.",
+      "target_preview": "/poteto-mode 为设置布局做几个原型方案。放在一个切换器后面，并发给我每个方案的截图。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 5,
+      "language": "text",
+      "source_sha256": "6d127a7a67910ac1bc73008da03089587b3732ca527655787b1032a75cd01e40",
+      "target_sha256": "9d4cd00f98293a151dd041ec3e326976a34293d1b7aa83e3bbe34f0acfde14e9",
+      "source_preview": "/poteto-mode turn this design into a plan. small verifiable PRs, each with its own proof.",
+      "target_preview": "/poteto-mode 把这个设计变成计划。拆成小而可验证的 PR，每个都有自己的证明。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 6,
+      "language": "text",
+      "source_sha256": "ae0bd436a0ae8431314aaf1d8a516b32d3a19e143995a5cd81ea0542ff7f1c69",
+      "target_sha256": "6e43cec1eddaa91a7fdf0249b8cf634011fc2be41aebbb8a35466e6e9fd90d33",
+      "source_preview": "ask /arena for a second opinion on this thread and our approach",
+      "target_preview": "请 /arena 对这个讨论串和我们的做法提供第二意见"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 7,
+      "language": "text",
+      "source_sha256": "b681387f23df1de9746ecb8e53309ec2a6f877ecdebf798b95ce587d161121a0",
+      "target_sha256": "37a3d92cff280d3b092115350fa07bf1a1db66bc31a020ab9cec8f6ef09becf3",
+      "source_preview": "/swarm check every package under packages/ against its check.sh. one worker per package. one report.",
+      "target_preview": "/swarm 用各自的 check.sh 检查 packages/ 下每个包。每个包一个工作代理。汇成一份报告。"
     }
   ],
   "numeric_candidates": [],
