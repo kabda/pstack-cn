@@ -585,6 +585,19 @@
       "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
+      "path": "skills/poteto-mode/scripts/watch-pr/cli.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "ec8a2f27c5ac24866b699e6395e7d1f32e595068",
+      "source_sha256": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
       "path": "skills/poteto-mode/scripts/watch-pr/github.test.ts",
       "source_mode": "100644",
       "source_type": "blob",
@@ -640,6 +653,19 @@
       "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
+      "path": "skills/poteto-mode/scripts/watch-pr/render.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "0e935839357335f24ab1bbc193d761495646ea99",
+      "source_sha256": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
       "path": "skills/poteto-mode/scripts/watch-pr/tsconfig.json",
       "source_mode": "100644",
       "source_type": "blob",
@@ -680,6 +706,19 @@
       "initial_translator": "root",
       "reviewer": "translate_docs",
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/watch-pr",
+      "source_mode": "100755",
+      "source_type": "blob",
+      "source_object": "99807d577c3b006cfe6ee9e149cf2914bfd4afd6",
+      "source_sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "逐文件检查过注释位置；此文件无可独立翻译的说明性注释，或为脚本入口／测试，运行接口、模型和输出保持原字节。",
+      "target_sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
       "path": "skills/principle-attack-the-premise/SKILL.md",
@@ -6857,7 +6896,7 @@
     }
   ],
   "summary": {
-    "原样机器内容": 415,
+    "原样机器内容": 418,
     "原样许可证": 1,
     "自然语言与机器片段混合": 87,
     "代码说明注释": 3
