@@ -451,6 +451,116 @@
       },
       "status": "已裁定",
       "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。 最终补回原文 plain English 的英语限定，独立审校者已复核通过。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "fd256b49d1f8827abf09a40b7a8b05f10906bc212195a66445dd02df34375b41",
+        "target_sha256": "929629607c9826cdab94ce683df57f9ac2c88e68958cdbae370c96de3d9da99d"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 6,
+        "language": "text",
+        "source_sha256": "68dec927cbf2e592497d6dd8135158087a5bd6e9a18772a0cf2c5adf57d445f3",
+        "target_sha256": "2b03102f5abaad75a8e4c597da29c7870d0ab5964fe637f3d45917f1755931e2"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 7,
+        "language": "text",
+        "source_sha256": "e256ee8e7aff6957a781d8328f0f68e26996564c81fa458da59fbca2305138ad",
+        "target_sha256": "7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 8,
+        "language": "text",
+        "source_sha256": "1998d0e3427091752007dee0ab70194cb059817a15691d66be856b087b787145",
+        "target_sha256": "e78d6e3893dd990f826595515982567b2d55f35d82876aa6ac87cba12e4b8739"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 9,
+        "language": "text",
+        "source_sha256": "35b485a7eb05c79f660b819cf7d152e4f76ae45e46797ce424cbafe91b79b6fb",
+        "target_sha256": "34c6a990f10664d230dbf180aa124b3fab3dfc74d6a037cf841c4472c0e703b3"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 10,
+        "language": "text",
+        "source_sha256": "6bcdab3a276c43e0d64614a6335bc13b238af14f0e8021a3f92bd9a60941558a",
+        "target_sha256": "c13f3d642d742a5b0f8a70736c44d9cb28107872cef49a72d8267b63e59da219"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 11,
+        "language": "text",
+        "source_sha256": "e6cbd0eefc562107e731b77b33db2ac19f43d480ebaf92698b3aadbcea6a4ecc",
+        "target_sha256": "2937324456fabc74524de57b4c2f14b8bf9bafe9e7aace53234041bb48eae506"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 12,
+        "language": "text",
+        "source_sha256": "62677ec02e645bb3f6601922375421e24e3b57f0c74e603ae7650b44b36f2ba9",
+        "target_sha256": "c17ee952b83174395a70172c3988161ce1f75e6e3e11fa9d0db05975a6fd587a"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/03-understand.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "03cbaf218dcf86be3bb88e4144ce4efb1e7d192140f95a07b3b2be2273e74c01",
+        "target_sha256": "857442ced1105f9af990e2dcf684d1d51783322cb905161d2b00e8927f88451e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/03-understand.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "683e8cab3c027ce5a603033e574d56709217d8838bc1c2ad65cbc7181bf0406f",
+        "target_sha256": "ff73797fc31473df2cc79b8eeebd7305ebb06f6a29d11ba46db886a260e9876e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
     }
   ],
   "numbers": [],
