@@ -146,6 +146,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/create-formal-verification-skill/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "92f7aa4fa966b857dd7fcc994b3c59650767c878",
+      "source_sha256": "30ef0ac27612ecd16fdc081112113221d673053cef3f8603db11932193861211",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "e0c2248b097968dd514977588dfc064a1c27e7e455d0f50c48dcbf866553dca2",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/create-verification-skill/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -268,6 +284,22 @@
       "review_status": "独立审校通过",
       "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
       "target_sha256": "a237f1dabaa744e00c0080e626c3e323e373cc64f75ad002ffaf4c9288b5a550",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/maintain-formal-verification-skill/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "5d2f7f2228a3b771ca5b03124fc265ddfc53c5fc",
+      "source_sha256": "0c96f54293542d3818b68754562b338073958781a9684454611dca37592e2d2c",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "21451bd91bccf352b7407eff6954ee8505f42b377f14d00af46335bda7174086",
       "review_record": "docs/localization/REVIEW-skills.json",
       "initial_translator": "translate_skills",
       "reviewer": "root",
@@ -933,7 +965,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 56
+    "自然语言与机器片段混合": 58
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
