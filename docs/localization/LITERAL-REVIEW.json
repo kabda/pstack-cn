@@ -1661,8 +1661,29 @@
       },
       "status": "已裁定",
       "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/sentry.md",
+        "index": 4,
+        "language": "",
+        "source_sha256": "3d019b237ee880a0e5bfaa4b46ffed6f6720d9aa2b009fd4e4a8704e978bfb96",
+        "target_sha256": "af2a28d85d1003dceaa6dac0e84f03a442243a0e8821f2082b9434bbc371612b"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/sentry.md",
+        "index": 5,
+        "language": "",
+        "source_sha256": "b45bdf1c0d00ac104f3882f061ea63b33068326f817f5d7825a5b8f1b323d129",
+        "target_sha256": "9c8fdae834493accf0a9e11c9f2d9eaf2587e3b6ff2f7e97754e3ec54f709ffe"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
     }
   ],
-  "numbers": [],
-  "snapshot_scope": "原子提交过程中的部分核对记录；围栏裁定随批次追加，完整验收记录在后续提交。"
+  "numbers": []
 }

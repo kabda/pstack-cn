@@ -1,6 +1,6 @@
 {
   "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
-  "final_mode": false,
+  "final_mode": true,
   "baseline_files": 582,
   "markdown_parsed": 194,
   "errors": [],
@@ -1287,8 +1287,25 @@
       "target_sha256": "1f5828009c137e71055e331f9b8c607c0e802010d72f41a7f4db43ee980cdd39",
       "source_preview": "   search_issue_events (filter by release, time, environment, trace ID, tags)\n   get_issue_tag_values (for an issue, see distribution across versions, users, en",
       "target_preview": "   search_issue_events（按发布版本、时间、环境、trace ID、标签筛选）\n   get_issue_tag_values（针对某问题，查看在版本、用户、环境中的分布）"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "index": 4,
+      "language": "",
+      "source_sha256": "3d019b237ee880a0e5bfaa4b46ffed6f6720d9aa2b009fd4e4a8704e978bfb96",
+      "target_sha256": "af2a28d85d1003dceaa6dac0e84f03a442243a0e8821f2082b9434bbc371612b",
+      "source_preview": "   get_sentry_resource (pass a Sentry URL or type+ID)",
+      "target_preview": "   get_sentry_resource（传入 Sentry URL 或 type+ID）"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "index": 5,
+      "language": "",
+      "source_sha256": "b45bdf1c0d00ac104f3882f061ea63b33068326f817f5d7825a5b8f1b323d129",
+      "target_sha256": "9c8fdae834493accf0a9e11c9f2d9eaf2587e3b6ff2f7e97754e3ec54f709ffe",
+      "source_preview": "   find_releases (around the commit date of the target)",
+      "target_preview": "   find_releases（目标提交日期前后）"
     }
   ],
-  "numeric_candidates": [],
-  "snapshot_scope": "原子提交过程中的部分核对记录；围栏裁定随批次追加，完整验收记录在后续提交。"
+  "numeric_candidates": []
 }
