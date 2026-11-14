@@ -50,6 +50,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "README.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "f0a2362688fd02298fc5671dfefa7a03e1f64c02",
+      "source_sha256": "8464b0c2d8d7bbbc75aeb0c0d6dc26316327324f6313386aa54af198a1aef8c0",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 mirror:start/end原文同步注释、原安装命令及来源语义不变；已在开头明确正文经过中文翻译。",
+      "target_sha256": "a34632dcdb5cac9cd5d91f914a5f83301bed658d9c193fdbffe9a89369dd5a72",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "SYNC-LOG.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -7972,7 +7988,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 138,
+    "自然语言与机器片段混合": 139,
     "混合配置模板": 1,
     "原样图像": 6,
     "SVG 图像": 6,
