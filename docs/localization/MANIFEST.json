@@ -114,6 +114,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/benchmark-checklist/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "e901d1fdbc9ffce53e94d6514be7d9a22e771a1a",
+      "source_sha256": "ba109e96c8f6c1c391baccf19e5d11e14370df7b3f2605e1572cd565a6c0fca0",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "226d3f770f64a118fc7e6dae7e2071fa13be03f528ca901630424f55385f39ad",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/blast-radius/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -837,7 +853,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 50
+    "自然语言与机器片段混合": 51
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
