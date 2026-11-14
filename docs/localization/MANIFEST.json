@@ -50,6 +50,38 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "395a0839126bb231430a9c9da02ebab5422557d5",
+      "source_sha256": "2de83d99f93f60ec6313455b0bc9aa9f0bfb93dd59f414f403691322db00d4db",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "a16a4ace870bfa565b38e2f829bb2b1a5ec4e02637ebf66443b1311ad6c22894",
+      "review_record": "docs/localization/REVIEW-principles.json",
+      "initial_translator": "translate_mode",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/principle-experience-first/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "5ea51741302cf3af4cc0b90ec70815bd3208dbf2",
+      "source_sha256": "58903529d733b1c1a7c9ccf127d45ef3c7d0d9f0b81164a4dc6b80efe6f2912b",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "c3b872b7f80d57af4aa12cd49f58ca62a84e8c80feed4b8d9f819f26bbaf761b",
+      "review_record": "docs/localization/REVIEW-principles.json",
+      "initial_translator": "translate_mode",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/principle-foundational-thinking/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -82,6 +114,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "5ca5246cbb0fa08884ce17b0d22c117ae1ad67b8",
+      "source_sha256": "170e0a658783e43fee8ec5a8c2422a4abb8f69cef621dd1819a95910b8207034",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "9873e5286881a54815116096ddaa024d0044afbbb96c65ef8f95a3136a84f090",
+      "review_record": "docs/localization/REVIEW-principles.json",
+      "initial_translator": "translate_mode",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/principle-type-system-discipline/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -101,7 +149,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 4
+    "自然语言与机器片段混合": 7
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
