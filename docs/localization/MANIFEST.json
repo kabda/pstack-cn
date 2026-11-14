@@ -1103,6 +1103,45 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/statechart/scripts/frontends/spec.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "3fbe34f1a6b344c56cfd5afba3b90fe9a397c405",
+      "source_sha256": "450cdfc8d0577a96818ca3697efebbbf70b530a4ba7e3eee03cf1ba8d3f1a0fd",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "450cdfc8d0577a96818ca3697efebbbf70b530a4ba7e3eee03cf1ba8d3f1a0fd",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
+      "path": "skills/statechart/scripts/frontends/value.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "d73ddec9ee3fa6077c644625002707a96d0938a1",
+      "source_sha256": "7c54be394b7a10f60591858a0f08fb1e8dc0941df1f38ede07fbe7719ff56da0",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "7c54be394b7a10f60591858a0f08fb1e8dc0941df1f38ede07fbe7719ff56da0",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
+      "path": "skills/statechart/scripts/frontends/view.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "ed8a1b5f9f0b4104a901a966bdfd66f13102d5ce",
+      "source_sha256": "2c0af8939321c5aaed4b6ecac8ce6a98d0e6774d8bd15d4b02fe4f406b8c9620",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "2c0af8939321c5aaed4b6ecac8ce6a98d0e6774d8bd15d4b02fe4f406b8c9620",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
       "path": "skills/statechart/scripts/ir.ts",
       "source_mode": "100644",
       "source_type": "blob",
@@ -1463,7 +1502,7 @@
     }
   ],
   "summary": {
-    "原样机器内容": 5,
+    "原样机器内容": 8,
     "原样许可证": 1,
     "自然语言与机器片段混合": 85,
     "代码说明注释": 1
