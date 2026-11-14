@@ -578,6 +578,54 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/why/references/sources/linear.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "899c643c078f322afe6ae0ef78a007f8ffd356c1",
+      "source_sha256": "01304e7f1badfcfb78babbb0edcadeb3cc8dd3f713793420cdff24ba190f907c",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "6d1df452a198b54bbc552467e1eb77b9b13016a36ed8b064dcd25575be61eedf",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/why/references/sources/notion.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "d16230a4105fd1dacf870da0950a38faeb9381e6",
+      "source_sha256": "3bcfa695c49dfad4ac036d5d7181c12585f55ac04f1936198d16ab75a2788997",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "a3e1e06d76e7ee224e7adf9f5bdecdc1fff2f5a85d501576a9c4a7ea4dda93db",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/why/references/sources/slack.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "cadd5618a349adc5eb1dce6fddde38e7221e00fd",
+      "source_sha256": "3bc6309f5c7b26ace3b919dbd7f7b048861dd2020f910fe24f656cc74b3b661c",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "ffe57180ea6f701a2de824687231f4c96d39d865f94a576946f2c4a9cccab9c2",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/why/references/synthesizer-prompt.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -597,7 +645,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 35
+    "自然语言与机器片段混合": 38
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
