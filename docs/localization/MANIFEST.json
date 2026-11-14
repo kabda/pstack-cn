@@ -546,6 +546,45 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/poteto-mode/scripts/bootstrap.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "d9c63e2007449a80000abe75ecaf7f2a0bd5826b",
+      "source_sha256": "ccd2ed08fd9da9d0d942e5f2491cfc74bb92d8a08fa51755e0da1ac8de287361",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "ccd2ed08fd9da9d0d942e5f2491cfc74bb92d8a08fa51755e0da1ac8de287361",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/bun.lock",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "65f0c662f300a0f72b319ca93ea18f56219c2581",
+      "source_sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "测试、预期产物、模型、lockfile、接口或配置保持原字节。",
+      "target_sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/package.json",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "c8839d74d9be87dc78b3af0bc6f68f935b4ecc25",
+      "source_sha256": "c9db6bb9362c6e319e395b358b113ebc72ab06b6c5e3a095093f6ebfdafe1c57",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "测试、预期产物、模型、lockfile、接口或配置保持原字节。",
+      "target_sha256": "c9db6bb9362c6e319e395b358b113ebc72ab06b6c5e3a095093f6ebfdafe1c57",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
       "path": "skills/principle-attack-the-premise/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -6721,7 +6760,7 @@
     }
   ],
   "summary": {
-    "原样机器内容": 407,
+    "原样机器内容": 410,
     "原样许可证": 1,
     "自然语言与机器片段混合": 87,
     "代码说明注释": 1
