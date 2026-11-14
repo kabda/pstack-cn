@@ -747,6 +747,96 @@
       "target_sha256": "1d7068e731f399386b7a0b6e2f29c14530266ad7efa9efb2e11add993cbc3370",
       "source_preview": "/poteto-mode full autopilot on this queue. each item is independent. i want them merged by morning.",
       "target_preview": "/poteto-mode 对这个队列运行 full autopilot。各条目相互独立。我希望早晨前全部合并。"
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "index": 5,
+      "language": "text",
+      "source_sha256": "99e3e9e92a2d9cae4d2e5dc90e6c4af29b35ebf1bcff00a1ad17db5776c7f5aa",
+      "target_sha256": "c3f4f7701c01b247aac089ff71aa66fc5dfe4c9d7258dcc39163dd8544601e48",
+      "source_preview": "/poteto-mode autopilot these five changes, but don't merge. i'll land them in the morning.",
+      "target_preview": "/poteto-mode 自动推进这五项改动，但不要合并。我早晨自己落地。"
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "index": 6,
+      "language": "text",
+      "source_sha256": "2bea55cf2071dbd579cbb2864d8d52be5f7555763e4cc8a43e2bbce21d267900",
+      "target_sha256": "0994160edbdfebd8d0b4eeca25044624740433d89898cb03864783e672240d30",
+      "source_preview": "/poteto-mode orchestrate the store migration. own it until every package is converted and merged. i'll check in twice a day.",
+      "target_preview": "/poteto-mode 编排 store 迁移。持续负责，直到每个包都转换并合并。我每天查看两次。"
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "index": 7,
+      "language": "text",
+      "source_sha256": "2b1fffdf4700e8799559c186cdbaa331b25a27777d86c40ebe2f3ebcd8c7b12a",
+      "target_sha256": "73eeaf11a00059c32fcb5f329a547287bff25ac0cd69b424d954810dbb24bb4e",
+      "source_preview": "/poteto-mode refactor this repo so its architecture is more agent friendly. use /correct and /architect on past commits and review comments to find the mistakes",
+      "target_preview": "/poteto-mode 重构这个仓库，使架构更适合智能体。用 /correct 和 /architect 分析历史提交及审查评论，找出智能体在这里最常犯的错误。用 /recall 获取过去聊天的上下文。通过原型回答未决问题，不要问我。带回一份由真实数据支撑的计划。等我批准后，用 autopilot-stack 或 a"
+    },
+    {
+      "path": "docs/guide/08-principles.md",
+      "index": 1,
+      "language": "text",
+      "source_sha256": "e5d8b084bbc179753870e728d93e7c40f465ceb426bb8e101efa940ad119f702",
+      "target_sha256": "3df2fe6698ce37a9b655f349955264bf2efb3d0bc9086bb6d0322465e62b5613",
+      "source_preview": "use subtract before you add. delete the obsolete adapters first, then design what's left.",
+      "target_preview": "运用“先减后加”。先删除过时适配器，再设计余下部分。"
+    },
+    {
+      "path": "docs/guide/08-principles.md",
+      "index": 2,
+      "language": "text",
+      "source_sha256": "7a041335b35790cab27d2267d32328ddadeb4b05921f1fd07dceaa5b16a58545",
+      "target_sha256": "61626be3d883daabdcca4fe7f0c8ceb9072f699728d3aaa66919bcd321f640a7",
+      "source_preview": "apply prove it works. run the real import flow and show me the written records.",
+      "target_preview": "应用“证明它能工作”。运行真实导入流程，展示写入的记录。"
+    },
+    {
+      "path": "docs/guide/08-principles.md",
+      "index": 3,
+      "language": "text",
+      "source_sha256": "c2036a711c5d11036a3f4ad76c072d0e582421fa03bf9f637987b38df24e1983",
+      "target_sha256": "a06fa08ef84e175da8868aceb3aa34d6d87fad5707bf8a4e38036e2e18d0aa12",
+      "source_preview": "separate before serializing shared state. give each attempt its own worktree, no locks.",
+      "target_preview": "先隔离，再串行化共享状态。每次尝试各用一个工作树，不要加锁。"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 2,
+      "language": "text",
+      "source_sha256": "baddfddf5a93b987df6951b1f799243f5e89f933451705fb2e7f3482cee92d9e",
+      "target_sha256": "77bde8bf14fb05f607a8d8bbf502a3b31befd6d53415fdeea4216f534dd08eac",
+      "source_preview": "/automate-me update my mode skill with everything since its last edit",
+      "target_preview": "/automate-me 用上次编辑以来的所有内容更新我的模式技能"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 3,
+      "language": "text",
+      "source_sha256": "da36da02dcb2070604b02e211de3e6bff6f473402b4852a6144e49c7f64f4082",
+      "target_sha256": "7751a26e219f1e5f045d746f9f28750f78d73b4a33fa8f1cb7eda8957f0ad041",
+      "source_preview": "/reflect that took way too long. capture what we learned so the next run doesn't repeat it.",
+      "target_preview": "/reflect 这花的时间太长了。记录我们学到的东西，避免下次重蹈覆辙。"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 4,
+      "language": "text",
+      "source_sha256": "740df46a3bd4050a3967ebe074638c37e4e2f58c9084ef40c8e0be032500b969",
+      "target_sha256": "5d7a7792f12da787eb76cdf68b2882bd991889c8bf5f560188272b1cf7878507",
+      "source_preview": "/correct agents keep calling the database client directly instead of going through the repository layer",
+      "target_preview": "/correct 智能体总是直接调用数据库客户端，而不是经过 repository 层"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "index": 5,
+      "language": "text",
+      "source_sha256": "3969bed43c6b9d93f58b3afa10a252595657d1cb739be532f6bcf79449e5a271",
+      "target_sha256": "3dc1e56fd74dff3f0bd30173df01164b748fb53671cdf3383f4b8fce2c687d56",
+      "source_preview": "/poteto-mode write a skill for verifying database migrations in this repo",
+      "target_preview": "/poteto-mode 编写一项技能，用于验证这个仓库的数据库迁移"
     }
   ],
   "numeric_candidates": [],

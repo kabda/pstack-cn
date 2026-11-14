@@ -1001,6 +1001,116 @@
       },
       "status": "已裁定",
       "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "99e3e9e92a2d9cae4d2e5dc90e6c4af29b35ebf1bcff00a1ad17db5776c7f5aa",
+        "target_sha256": "c3f4f7701c01b247aac089ff71aa66fc5dfe4c9d7258dcc39163dd8544601e48"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 6,
+        "language": "text",
+        "source_sha256": "2bea55cf2071dbd579cbb2864d8d52be5f7555763e4cc8a43e2bbce21d267900",
+        "target_sha256": "0994160edbdfebd8d0b4eeca25044624740433d89898cb03864783e672240d30"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/07-overnight.md",
+        "index": 7,
+        "language": "text",
+        "source_sha256": "2b1fffdf4700e8799559c186cdbaa331b25a27777d86c40ebe2f3ebcd8c7b12a",
+        "target_sha256": "73eeaf11a00059c32fcb5f329a547287bff25ac0cd69b424d954810dbb24bb4e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/08-principles.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "e5d8b084bbc179753870e728d93e7c40f465ceb426bb8e101efa940ad119f702",
+        "target_sha256": "3df2fe6698ce37a9b655f349955264bf2efb3d0bc9086bb6d0322465e62b5613"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/08-principles.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "7a041335b35790cab27d2267d32328ddadeb4b05921f1fd07dceaa5b16a58545",
+        "target_sha256": "61626be3d883daabdcca4fe7f0c8ceb9072f699728d3aaa66919bcd321f640a7"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/08-principles.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "c2036a711c5d11036a3f4ad76c072d0e582421fa03bf9f637987b38df24e1983",
+        "target_sha256": "a06fa08ef84e175da8868aceb3aa34d6d87fad5707bf8a4e38036e2e18d0aa12"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "baddfddf5a93b987df6951b1f799243f5e89f933451705fb2e7f3482cee92d9e",
+        "target_sha256": "77bde8bf14fb05f607a8d8bbf502a3b31befd6d53415fdeea4216f534dd08eac"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "da36da02dcb2070604b02e211de3e6bff6f473402b4852a6144e49c7f64f4082",
+        "target_sha256": "7751a26e219f1e5f045d746f9f28750f78d73b4a33fa8f1cb7eda8957f0ad041"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 4,
+        "language": "text",
+        "source_sha256": "740df46a3bd4050a3967ebe074638c37e4e2f58c9084ef40c8e0be032500b969",
+        "target_sha256": "5d7a7792f12da787eb76cdf68b2882bd991889c8bf5f560188272b1cf7878507"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/09-make-it-yours.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "3969bed43c6b9d93f58b3afa10a252595657d1cb739be532f6bcf79449e5a271",
+        "target_sha256": "3dc1e56fd74dff3f0bd30173df01164b748fb53671cdf3383f4b8fce2c687d56"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
     }
   ],
   "numbers": [],
