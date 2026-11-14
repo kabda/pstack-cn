@@ -387,6 +387,96 @@
       "target_sha256": "ff73797fc31473df2cc79b8eeebd7305ebb06f6a29d11ba46db886a260e9876e",
       "source_preview": "/how do we dedupe notifications? is there an n+1 when we look up subscribers?",
       "target_preview": "/how 我们如何对通知去重？查询订阅者时是否存在 n+1 问题？"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "index": 3,
+      "language": "text",
+      "source_sha256": "08faca7aa3e676737fd5c7c2f3a0cd25c91d6d553c7ef72da5452d3425601374",
+      "target_sha256": "5f288622c5039593988e3c6a0b83c1eda9f786152d1ebd9f797e2b094e64b8d0",
+      "source_preview": "/why was the retry limit set to five? does the reason still hold?",
+      "target_preview": "/why 重试上限为什么设为五次？当时的理由现在仍成立吗？"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "index": 4,
+      "language": "text",
+      "source_sha256": "6cce254227a82468639ab77fae72257954b63befbfcca7c4e5b2edf7181d935e",
+      "target_sha256": "4a01d9b79fb7206c6bb5fed6c24fe3a6e80c66933126e17b899d1f9e6eb96b96",
+      "source_preview": "/teach me how this PR changes retries. convince me it fixes the cause and not the symptom.",
+      "target_preview": "/teach 向我解释这个 PR 如何改变重试。说服我它解决的是原因，而非症状。"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "index": 5,
+      "language": "text",
+      "source_sha256": "2b6bdc744a2f6b13b7df6bfef0c489f5974b9b67d1fa386bb623b722cacdcdd7",
+      "target_sha256": "57959f3ac7e4fd1409042ee81495a3d57b3e049aab2d0e7ab94b52ee229aa469",
+      "source_preview": "/teach me why you implemented it this way and not with a queue. what did you trade off, and why?",
+      "target_preview": "/teach 向我解释为什么采用这种实现，而不是队列。你做了哪些取舍，为什么？"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "index": 6,
+      "language": "text",
+      "source_sha256": "e80b116b372aa4a5ff26f74eb2e2860a669512263a0de2010c898916e81a1d9b",
+      "target_sha256": "45572c9acde81c802f33cfd5c46782d540a2c2a06b1d1616a16b1a52bf38fa82",
+      "source_preview": "/recall catch me up on the export work from last week",
+      "target_preview": "/recall 帮我回顾上周的导出工作"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "index": 7,
+      "language": "text",
+      "source_sha256": "5855280db18dd3fb17ee160ede51f23fb6c224f1e68243d159e38856950cf7f7",
+      "target_sha256": "4498fdef6cfca72e5434a84bb2291dedbdf4c5447077eccc30ec3c513b034c40",
+      "source_preview": "/recall my work on the virtualized list from yesterday, then read this bug report.",
+      "target_preview": "/recall 回顾我昨天在虚拟化列表上的工作，然后阅读这份缺陷报告。"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "index": 8,
+      "language": "text",
+      "source_sha256": "1900fbdf041c029dcfd11bd1cabe6d1007882e1357dd63080572e9abbc106368",
+      "target_sha256": "9eec2d6c57bd50f52beb95c6ce10abc7dbceee1e6ff9b8e355557cd529871120",
+      "source_preview": "/poteto-mode take over this branch. read the decision log, figure out what's done, and continue from there. don't redo finished work.",
+      "target_preview": "/poteto-mode 接手这个分支。阅读决策日志，弄清哪些已经完成，并从那里继续。不要重做已完成的工作。"
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "index": 1,
+      "language": "text",
+      "source_sha256": "ca12e5065742e11d0130404320f7134219edca22e97b3a914893a4403846efdd",
+      "target_sha256": "598b068eee457a0aee697ff7c6f455ab3066c01faf77ea73c254f0d316b28ab7",
+      "source_preview": "/architect design the import pipeline before writing any code. i care most about how callers use it.",
+      "target_preview": "/architect 在写任何代码前设计导入流水线。我最关心调用方如何使用它。"
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "index": 2,
+      "language": "text",
+      "source_sha256": "d5ff3107da600ed4112bc8e11f341b8c42145e1b606ddfa98656cd5356059b5a",
+      "target_sha256": "8a10cf1fb877cf86cf1538b5d6e7937fa8670e3059b5a85fc7b7c3ffe3ae397d",
+      "source_preview": "/architect with checkpoint. stop and show me before implementing.",
+      "target_preview": "/architect with checkpoint。在实现前停下来给我看。"
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "index": 3,
+      "language": "text",
+      "source_sha256": "daa80df72d0f1ca5b6c185b900185f5c85f1dbff6090d1380958ce670db4f8fb",
+      "target_sha256": "04d9480e7c2f01bb05fcdc94bdf82b4b0a667e6fc8c34b9eff3a1295a1481a6f",
+      "source_preview": "/arena take my prompt to the arena verbatim. i want to compare their proposals with yours.",
+      "target_preview": "/arena 把我的提示词原样送入 arena。我想把它们的提案与你的作比较。"
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "index": 4,
+      "language": "mermaid",
+      "source_sha256": "dd170873bebf65a68507aa6ee750ad57b2eb74bdb654bcffa7e6de7bd3e3108d",
+      "target_sha256": "7a5f5e2af11e3ceeba87e4d12a44071225bc179c7430cd95dd4865562ad3faf8",
+      "source_preview": "flowchart LR\n    A[One task] --> B[Configured panel]\n    B --> C[Candidate 1]\n    B --> D[Candidate 2]\n    B --> E[Candidate N]\n    C --> F[Cross-judge]\n    D -",
+      "target_preview": "flowchart LR\n    A[一项任务] --> B[已配置的小组]\n    B --> C[候选方案 1]\n    B --> D[候选方案 2]\n    B --> E[候选方案 N]\n    C --> F[交叉评审]\n    D --> F\n    E --> F\n    F --> G[选择基底]\n "
     }
   ],
   "numeric_candidates": [],
