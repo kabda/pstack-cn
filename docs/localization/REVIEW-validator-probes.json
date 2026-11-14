@@ -1,0 +1,93 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "translate_docs",
+  "initial_translator": "root",
+  "independent": true,
+  "review_status": "通过",
+  "open_issues": [],
+  "files": [],
+  "validator_sha256": "ecd3ceed48b6277bce4d4a51c8c8cf3f9f9379b86b7a9373dd3c1aea56772356",
+  "scope": "main只读重放，Path.write_text拦截CHECK和PROOFS写入；负例仅替换内存中JSON读取结果",
+  "checks": [
+    {
+      "case": "current",
+      "exitcode": 0,
+      "error_count": 0,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "review_status",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "review_hash",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "review_source",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "open_issues",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "not_independent",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "literal_source",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    },
+    {
+      "case": "literal_fence",
+      "exitcode": 1,
+      "error_count": 1,
+      "detected": true,
+      "writes_intercepted": [
+        "CHECK-RESULTS.json",
+        "LITERAL-PROOFS.json"
+      ]
+    }
+  ]
+}
