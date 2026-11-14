@@ -594,6 +594,38 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "bbc5b3751ad789cfbd92f8937a2e84de365509ad",
+      "source_sha256": "2da35982565c6cf1dbe25f7a05ccae28f7729389aefc6dbb3e010eb883abdd19",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
+      "target_sha256": "8367fe941341fe99b2ae0de875518af74d57c166dd77bd085d278495f95c2d70",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "819862c8fe7b756c8571eed410a30a09625673d9",
+      "source_sha256": "34de4bb101dd56524d8067c73bba5988ead6f93d3ab8f96ac13a6adcb43696cb",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
+      "target_sha256": "c2c9b5c1ba9dffcfdf6e27fa99ffe59151cef19595b7723cb6ab41b3355c6244",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/poteto-mode/playbooks/babysit.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -7286,7 +7318,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 107,
+    "自然语言与机器片段混合": 109,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
