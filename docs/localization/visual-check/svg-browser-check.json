@@ -1,0 +1,338 @@
+[
+  {
+    "name": "header-dark.svg",
+    "path": "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/svg-previews/header-dark.svg.png",
+    "title": "pstack 镜像的工作方式",
+    "desc": "cursor/plugins/pstack 与 backnotprop/pstack 镜像保持同步。npx skills add backnotprop/pstack 可将其安装到 Claude Code、Codex、Pi、Cursor、OpenCode 及其他智能体中。",
+    "text": [
+      {
+        "text": "同步",
+        "x": 297,
+        "y": 105,
+        "width": 22,
+        "height": 12.5,
+        "inside": true
+      },
+      {
+        "text": "上游",
+        "x": 58,
+        "y": 107,
+        "width": 24.8046875,
+        "height": 12.5,
+        "inside": true
+      },
+      {
+        "text": "cursor/plugins/pstack",
+        "x": 58,
+        "y": 129,
+        "width": 189.6484375,
+        "height": 17.5,
+        "inside": true
+      },
+      {
+        "text": "本镜像",
+        "x": 358,
+        "y": 107,
+        "width": 37.203125,
+        "height": 12.5,
+        "inside": true
+      },
+      {
+        "text": "backnotprop/pstack",
+        "x": 358,
+        "y": 129,
+        "width": 162.5546875,
+        "height": 17.5,
+        "inside": true
+      },
+      {
+        "text": "npx skills add backnotprop/pstack",
+        "x": 342,
+        "y": 182.5,
+        "width": 228.484375,
+        "height": 13,
+        "inside": true
+      },
+      {
+        "text": "Claude Code",
+        "x": 730,
+        "y": 39,
+        "width": 79.3359375,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "Codex",
+        "x": 730,
+        "y": 71,
+        "width": 39.3359375,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "Pi",
+        "x": 730,
+        "y": 103,
+        "width": 11.65625,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "Cursor",
+        "x": 730,
+        "y": 135,
+        "width": 41.765625,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "OpenCode",
+        "x": 730,
+        "y": 167,
+        "width": 65.828125,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "+ 其他智能体",
+        "x": 730,
+        "y": 199,
+        "width": 76.6953125,
+        "height": 15,
+        "inside": true
+      }
+    ]
+  },
+  {
+    "name": "header-light.svg",
+    "path": "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/svg-previews/header-light.svg.png",
+    "title": "pstack 镜像的工作方式",
+    "desc": "cursor/plugins/pstack 与 backnotprop/pstack 镜像保持同步。npx skills add backnotprop/pstack 可将其安装到 Claude Code、Codex、Pi、Cursor、OpenCode 及其他智能体中。",
+    "text": [
+      {
+        "text": "同步",
+        "x": 297,
+        "y": 105,
+        "width": 22,
+        "height": 12.5,
+        "inside": true
+      },
+      {
+        "text": "上游",
+        "x": 58,
+        "y": 107,
+        "width": 24.8046875,
+        "height": 12.5,
+        "inside": true
+      },
+      {
+        "text": "cursor/plugins/pstack",
+        "x": 58,
+        "y": 129,
+        "width": 189.6484375,
+        "height": 17.5,
+        "inside": true
+      },
+      {
+        "text": "本镜像",
+        "x": 358,
+        "y": 107,
+        "width": 37.203125,
+        "height": 12.5,
+        "inside": true
+      },
+      {
+        "text": "backnotprop/pstack",
+        "x": 358,
+        "y": 129,
+        "width": 162.5546875,
+        "height": 17.5,
+        "inside": true
+      },
+      {
+        "text": "npx skills add backnotprop/pstack",
+        "x": 342,
+        "y": 182.5,
+        "width": 228.484375,
+        "height": 13,
+        "inside": true
+      },
+      {
+        "text": "Claude Code",
+        "x": 730,
+        "y": 39,
+        "width": 79.3359375,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "Codex",
+        "x": 730,
+        "y": 71,
+        "width": 39.3359375,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "Pi",
+        "x": 730,
+        "y": 103,
+        "width": 11.65625,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "Cursor",
+        "x": 730,
+        "y": 135,
+        "width": 41.765625,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "OpenCode",
+        "x": 730,
+        "y": 167,
+        "width": 65.828125,
+        "height": 15,
+        "inside": true
+      },
+      {
+        "text": "+ 其他智能体",
+        "x": 730,
+        "y": 199,
+        "width": 76.6953125,
+        "height": 15,
+        "inside": true
+      }
+    ]
+  },
+  {
+    "name": "sponsor-inbox-dark.svg",
+    "path": "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/svg-previews/sponsor-inbox-dark.svg.png",
+    "title": "立即试用 Plannotator Inbox",
+    "desc": "卡片：Plannotator Inbox，plannotator.ai/inbox。",
+    "text": [
+      {
+        "text": "立即试用",
+        "x": 128,
+        "y": 38,
+        "width": 53.6015625,
+        "height": 14,
+        "inside": true
+      },
+      {
+        "text": "Plannotator Inbox",
+        "x": 127,
+        "y": 53,
+        "width": 236.953125,
+        "height": 35.5,
+        "inside": true
+      },
+      {
+        "text": "plannotator.ai/inbox",
+        "x": 128,
+        "y": 92,
+        "width": 156.5390625,
+        "height": 15,
+        "inside": true
+      }
+    ]
+  },
+  {
+    "name": "sponsor-inbox-light.svg",
+    "path": "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/svg-previews/sponsor-inbox-light.svg.png",
+    "title": "立即试用 Plannotator Inbox",
+    "desc": "卡片：Plannotator Inbox，plannotator.ai/inbox。",
+    "text": [
+      {
+        "text": "立即试用",
+        "x": 128,
+        "y": 38,
+        "width": 53.6015625,
+        "height": 14,
+        "inside": true
+      },
+      {
+        "text": "Plannotator Inbox",
+        "x": 127,
+        "y": 53,
+        "width": 236.953125,
+        "height": 35.5,
+        "inside": true
+      },
+      {
+        "text": "plannotator.ai/inbox",
+        "x": 128,
+        "y": 92,
+        "width": 156.5390625,
+        "height": 15,
+        "inside": true
+      }
+    ]
+  },
+  {
+    "name": "sponsor-plannotator-dark.svg",
+    "path": "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/svg-previews/sponsor-plannotator-dark.svg.png",
+    "title": "由 Plannotator 赞助",
+    "desc": "赞助卡片：Plannotator，github.com/backnotprop/plannotator。",
+    "text": [
+      {
+        "text": "赞助方",
+        "x": 128,
+        "y": 38,
+        "width": 40.203125,
+        "height": 14,
+        "inside": true
+      },
+      {
+        "text": "Plannotator",
+        "x": 127,
+        "y": 53,
+        "width": 157.203125,
+        "height": 35.5,
+        "inside": true
+      },
+      {
+        "text": "github.com/backnotprop/plannotator",
+        "x": 128,
+        "y": 92,
+        "width": 266.109375,
+        "height": 15,
+        "inside": true
+      }
+    ]
+  },
+  {
+    "name": "sponsor-plannotator-light.svg",
+    "path": "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/svg-previews/sponsor-plannotator-light.svg.png",
+    "title": "由 Plannotator 赞助",
+    "desc": "赞助卡片：Plannotator，github.com/backnotprop/plannotator。",
+    "text": [
+      {
+        "text": "赞助方",
+        "x": 128,
+        "y": 38,
+        "width": 40.203125,
+        "height": 14,
+        "inside": true
+      },
+      {
+        "text": "Plannotator",
+        "x": 127,
+        "y": 53,
+        "width": 157.203125,
+        "height": 35.5,
+        "inside": true
+      },
+      {
+        "text": "github.com/backnotprop/plannotator",
+        "x": 128,
+        "y": 92,
+        "width": 266.109375,
+        "height": 15,
+        "inside": true
+      }
+    ]
+  }
+]
