@@ -671,6 +671,116 @@
       },
       "status": "已裁定",
       "reason": "说明性图表，仅翻译状态、箭头和展示标签；删除展示标签后节点、形状、边和其余语法完全一致。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "407fca6bf18399b923ff86045aa8cd7693480c8de98a6cc43a563275398a13d4",
+        "target_sha256": "64fc5dcde1be18e0d92809fc6e1da8c4e78c6a63adc6322b7fbf10f3334119b0"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 6,
+        "language": "text",
+        "source_sha256": "b681387f23df1de9746ecb8e53309ec2a6f877ecdebf798b95ce587d161121a0",
+        "target_sha256": "37a3d92cff280d3b092115350fa07bf1a1db66bc31a020ab9cec8f6ef09becf3"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 7,
+        "language": "text",
+        "source_sha256": "7ba226ecbc6f87fbcb990e1b9960003e2bc17c2d68bab9ed1c55ced1437ca40b",
+        "target_sha256": "401a467de84d85149f363f4ae92c95b17ff42b5a9922725c43b1e66dd923f30b"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 8,
+        "language": "text",
+        "source_sha256": "4b2c946a63f3070265c49fcff2f5fd7cd8e4e5e2a00918cae832e330a4d33b6d",
+        "target_sha256": "994b38adf18238179329f4880ac890a1447199aa811bba92ce33d1d24d0fc24e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 9,
+        "language": "text",
+        "source_sha256": "91b465a5c1632b438b9e8fe1fad1e3d318851757a99aa67ee9f477bcb158c481",
+        "target_sha256": "2cc2dccf83d75c5416757c361077a428f9e8ce5d10873c34639f1fceab4a1912"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 10,
+        "language": "text",
+        "source_sha256": "7f7a3a3e5a7b9b48f60591af9900e927a32b879654aa2542e0be22fe790b12fa",
+        "target_sha256": "cebfd641a48e8ab9645de98c4450454a274c95cca934c2199f800e9c049dcfb5"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 11,
+        "language": "text",
+        "source_sha256": "74c0749133ff3e7258aa7b2db55ebea8fe980b962044e9a21e573ef97caa6617",
+        "target_sha256": "bf92e7c657be74568022e28fb8310c7f3c90d9ca6f952a55a5592ee10d0a7ec5"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/04-design.md",
+        "index": 12,
+        "language": "text",
+        "source_sha256": "37689662150a550fefab8f3b6356f25a709ee57d17fde0d61e7915eb20ce4ec6",
+        "target_sha256": "ab1df273c14eb1a7ac40b6ea33b97c12c5bf6e0ab22258fbe9cd7cf854aa5b9f"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "11e7bd29425cf2b40af429c65c19dc5901e322bf29358f990aca98f622400e89",
+        "target_sha256": "a6d0e5a6b973534c0d61342afa58f21cfa65c31ed364c169259d691f653f4a6c"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "eed5bc66ab6d57cae290dae4ca6e9f8d4bd1cb3836bdcd0c01ef0293ec59d89a",
+        "target_sha256": "229e10001725f98785911d8326862c8efa88b4c69f3486a5416bb7808f9c97f2"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
     }
   ],
   "numbers": [],
