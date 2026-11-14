@@ -178,6 +178,38 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "docs/guide/08-principles.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "d2921500bb44643ac3f841fa03e19e0b3a240c8b",
+      "source_sha256": "0b26b85292f0c09768abe727c9e92987dbf81f5b439a4871034c2fd1c4cb1723",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "c6f4c1724d48b23f0a3118da8c21e5cb4a1e9b23ca16c89df0736fc128bfd4b3",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "8d1c4b4f951bbb203ff1288e02ce91e8b6832a43",
+      "source_sha256": "50642f7f894988f7c263700f46478e7aed7eb94a257683350d91a9a0d70dc141",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "60344b97bb242411c53559df6ba13f9e4a571287216040fdd2eb02e8f3eb3422",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "docs/guide/README.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -7575,7 +7607,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 121,
+    "自然语言与机器片段混合": 123,
     "原样图像": 5,
     "代码说明注释": 4
   },
