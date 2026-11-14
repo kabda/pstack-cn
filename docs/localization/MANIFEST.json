@@ -50,6 +50,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "agents/poteto-agent.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "e1d2df2e8c3c4954b87ee1b29655c898bc7ee699",
+      "source_sha256": "979f18abd000d185a0b4c41a2a4111c0910596a7f5c81cbb571885bc721b2bf7",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "2b0f1b105c9b88cd0d4c44e8882a37487ad5b61670b4d998ab06f57b5b3fd607",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/architect/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -543,6 +559,22 @@
       "review_record": "docs/localization/REVIEW-skills.json",
       "initial_translator": "translate_skills",
       "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/poteto-mode/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "53ecd5094538c52a855c09368390005a9405a70a",
+      "source_sha256": "70faeea64f157a019b349137f3e8163c5df9a0ec5a2412e4b4e75e50d760b936",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
+      "target_sha256": "d553a45a22525918cc419e87710c1ba31cda544df5ff1f647c56649fcbcc104a",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
@@ -6982,7 +7014,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 88,
+    "自然语言与机器片段混合": 90,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
