@@ -341,7 +341,118 @@
       "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
     }
   ],
-  "fences": [],
+  "fences": [
+    {
+      "candidate": {
+        "path": "README.md",
+        "index": 4,
+        "language": "",
+        "source_sha256": "4a3b1bbda1b4923d37e3a81c9a951481be471fa21c92fdc6b79c13e73abc3de4",
+        "target_sha256": "3255c0a176e987ed64eee8b50fa857d52f9b9294a49f9552249f1a4cdeb167a5"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "README.md",
+        "index": 5,
+        "language": "",
+        "source_sha256": "2ff1c74cb52abf083144cf59e8b464dad69ea20602b67134305cfe91eab4d0d9",
+        "target_sha256": "db742a2e71189189b4a29f2fb5dd628116f25e58aabafb2f2fcbf0f9f029012e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "README.md",
+        "index": 6,
+        "language": "",
+        "source_sha256": "5c6d58d0391cbe9dd5cd02bff69d43544671fb45ca678d8746e5e51d6675547e",
+        "target_sha256": "1e5a209f42d9588adc01fed532f66b8d814c3d7a4ac848613f668ccada14900c"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "README.md",
+        "index": 7,
+        "language": "",
+        "source_sha256": "8fb46a2a52f6dc27e54ef1c1d1c928a44dbc21ad96758bc1341b2a26c9d35d19",
+        "target_sha256": "880b75f269971ce0f0068950da2985c87659781e78d425eef0fc60177f664079"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "README.md",
+        "index": 8,
+        "language": "",
+        "source_sha256": "78bb43333847e3666446baa030c7e840f2f70aeec05e990ebd1444bd599923b1",
+        "target_sha256": "2c69cb1fd7bdf755c187c8649cbf3ef0f318e6a50fc718615463e1c06548b14e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/01-setup.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "3be1ed09735e00cd9d227cae34f77951e03617da98e6abb5e1e513746d67e042",
+        "target_sha256": "18a95979032defa72d405114b8d57c0d86fc4305ec8f9bb8add4c8c19bd7ab09"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 1,
+        "language": "mermaid",
+        "source_sha256": "a689401b95dbd53557ce3def073b4c7ac000045c3a69c7155fc7d8d72e34ca11",
+        "target_sha256": "2badaf6ad9508ab6566c9ce59fe59bfa0dd7648b28797d636198f3a754a60eeb"
+      },
+      "status": "已裁定",
+      "reason": "说明性图表，仅翻译状态、箭头和展示标签；删除展示标签后节点、形状、边和其余语法完全一致。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "ad66b1f3cb0df082756b6ad221a700d85a9bf0409115988fde2bcbb0fbc3c3a1",
+        "target_sha256": "3787cc9d6cf7aebeeb28b2a7b9095216fa537da000fa278724b29638aa1027dd"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "3366826ab5f19cc44834d065c3f50b2bf00a36c13bd73bd9592e342025c27375",
+        "target_sha256": "43d1db5b66afd9c78964bffeb8f6213d1e6bc95b5981061eadd3d54f7a5b9de2"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/02-poteto-mode.md",
+        "index": 4,
+        "language": "text",
+        "source_sha256": "0a03bc78e6be0e3ba537e0ace05009b6a45d2683c3cfaec6b5ee8a10d5b4ea64",
+        "target_sha256": "6e0181cfb5707960d849496fb65ce6b4f4dc75078823f4aad8f9ba3dd107a511"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。 最终补回原文 plain English 的英语限定，独立审校者已复核通过。"
+    }
+  ],
   "numbers": [],
   "snapshot_scope": "原子提交过程中的部分核对记录；围栏裁定随批次追加，完整验收记录在后续提交。"
 }
