@@ -528,6 +528,38 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "mirror-assets/header-dark.svg",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "c1cbbf7c032fcd441eb61ab94065b6311dd7848a",
+      "source_sha256": "ac03a598e61546169e5d1b81da60d1bb31e3d3e1a1245476dd60b7a22f471d39",
+      "category": "SVG 图像",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "检查可见文字和无障碍描述；保护图形、品牌和 ID。",
+      "target_sha256": "4cbdec4eba4673b3fd50a05d5abb0c3ed44a2b1bdd4bd262c6700b5d339ebbec",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "mirror-assets/header-light.svg",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "5e41f4f485470aa675242fba05183491c1b39356",
+      "source_sha256": "14509898b395d58aad63ad3638f6674daf3bfb13c73740f67d708b3c2e035770",
+      "category": "SVG 图像",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "检查可见文字和无障碍描述；保护图形、品牌和 ID。",
+      "target_sha256": "bae83bd55e2e3af3b9dc5b19bce42acb401a6d14b636b75f9c58879fdc460c3b",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/architect/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -7847,6 +7879,7 @@
     "自然语言与机器片段混合": 136,
     "混合配置模板": 1,
     "原样图像": 6,
+    "SVG 图像": 2,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
