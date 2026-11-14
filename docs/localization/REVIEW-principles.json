@@ -1,0 +1,230 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "translate_docs",
+  "initial_translator": "translate_mode",
+  "independent": true,
+  "review_status": "通过",
+  "open_issues": [],
+  "resolved_issues": [
+    "P1: 测量语境 regression 修正为性能退化",
+    "P2: 保留单一共享写入者/目标约束，canonical object 改同一个权威对象；竞态术语统一"
+  ],
+  "files": [
+    {
+      "path": "skills/principle-attack-the-premise/SKILL.md",
+      "target_sha256": "2c58b5efb0792d3240222d70225549d64c6c8e8a7131a2a1da43fbd96bec7681",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-boundary-discipline/SKILL.md",
+      "target_sha256": "ccb277560b8faa26f656abb368d93272c0b8f3de0592b155a4a27272ad6359ae",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-build-the-lever/SKILL.md",
+      "target_sha256": "b5a7bd09867b65a0e76d613cccedc2d0a90b6c59d4ef65ba2acc604bfda10bbb",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "target_sha256": "b69d9c02963a5ccb81295faa323ef6d38092dfba8bbfc526a4ee51c383a79f85",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "target_sha256": "a16a4ace870bfa565b38e2f829bb2b1a5ec4e02637ebf66443b1311ad6c22894",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-experience-first/SKILL.md",
+      "target_sha256": "c3b872b7f80d57af4aa12cd49f58ca62a84e8c80feed4b8d9f819f26bbaf761b",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-explain-the-number/SKILL.md",
+      "target_sha256": "d5e087cf282322e2a20899851df919577bbcfdfac0b7e0ed057e02b92d87083d",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-fix-root-causes/SKILL.md",
+      "target_sha256": "84ea48d7bfd27c97a1a5ace6221ec26683f8eb63cf6fefb9a4ef33cd72fcee4a",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-foundational-thinking/SKILL.md",
+      "target_sha256": "9c96650dc70c94a7ef9fb48d5201efc4a4a398593a6b08fe52a265b985e90d5f",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-guard-the-context-window/SKILL.md",
+      "target_sha256": "d9a5ad757abe7d10608f524758aee1b4884e67b9ced35306b8169c0f8e8ea934",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-laziness-protocol/SKILL.md",
+      "target_sha256": "b7d537769c7a9b6803c482463f616948d2d259ed0a5a1009d92201486688364f",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-make-operations-idempotent/SKILL.md",
+      "target_sha256": "235b55b53ffe1c2465b545bf143663738ab1aba36b60ddb944611402ea043925",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "target_sha256": "d250103a2e16c101c4873f6a68068df24581232204cd60c03ab7ab23bcba78e2",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-minimize-reader-load/SKILL.md",
+      "target_sha256": "6adda938f7b4dde30a329f0753d55fc10aba74b218d571711b6e5d8164c69920",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-model-the-domain/SKILL.md",
+      "target_sha256": "c6f061c4b446865e34771ae64d64eac42b7ffe0dbeda92331faeb8dbea29b02c",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-never-block-on-the-human/SKILL.md",
+      "target_sha256": "3507f91d18370f95ed03230903dc087c6026a2883e1a22f057265d46d19b4c58",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "target_sha256": "f7c77b236882689f37907628c2d4ea54f1435c58ee298ca295865932f205193b",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-prove-it-works/SKILL.md",
+      "target_sha256": "6ea4bff6b96f6fb661c54577156770884ea9ef10e3644ba7be03094c871c9bf6",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "target_sha256": "9873e5286881a54815116096ddaa024d0044afbbb96c65ef8f95a3136a84f090",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "target_sha256": "7226d6b5f754b323a3a0158d10ae80e3cca641d8bbd0174e7b2856d4567465d7",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "target_sha256": "f6f8bd15dbd9017cef6f0b012bce1be6cc0b92cfecaf4689fec5cc6e021087b7",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-subtract-before-you-add/SKILL.md",
+      "target_sha256": "aa5ec66a91e15fa074062649560192ad2f3b24ebedf4a9fcd04d7b7da393582e",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "target_sha256": "02f5b5d8e25f07f7b319a73bd995d009db399b203cc6a340477110be4b378cc3",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/principle-type-system-discipline/SKILL.md",
+      "target_sha256": "9513fde2b41862aeef85e9d8c5d48bb4a8b8c7c987d440e3b39d95b98c43c60e",
+      "reviewer": "translate_docs",
+      "initial_translator": "translate_mode",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    }
+  ]
+}
