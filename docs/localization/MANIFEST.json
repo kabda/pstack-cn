@@ -34,6 +34,22 @@
       "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
+      "path": "agents/comment-sicko.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "033c2c20c14f5fd173b16c75457b301d476b0ad3",
+      "source_sha256": "73c0bcb8c258981131c00f09c2c56e300c7225803bd4e1093ef41362e0073d98",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 首次输出 Yes... Ha ha ha... Yes! 与 MUST KILL/REVIEW 等标记及 IMPORTANT 等检索信号保留，邻近中文解释。两处同源角色文件目标字节相同。",
+      "target_sha256": "0840f55f9ef19e97fb9bf6dab627179698742b37ce888ade98697ef57f87cf80",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/architect/SKILL.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -428,6 +444,38 @@
       "review_status": "独立审校通过",
       "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 功能映射四个H2、Preconditions:、示例选择器和种子值为精确契约；已附中文解释。",
       "target_sha256": "3a73a16ca0ed2cc109f67dea2f30ed576fdcab07caaea21174b8114d287e243c",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/no-comments/SKILL.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "4ef20d0e385735430c813700492f949e21c83022",
+      "source_sha256": "a725059771d1577fc59fbd266e2f75fe7f547a23a3dcc1052459db54ae10c0c2",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "37b9ce8967c671aa3589aaa54be76d03c1d4ddfff5c96399a7f432cd3bfebc1b",
+      "review_record": "docs/localization/REVIEW-skills.json",
+      "initial_translator": "translate_skills",
+      "reviewer": "root",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/no-comments/references/comment-sicko.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "033c2c20c14f5fd173b16c75457b301d476b0ad3",
+      "source_sha256": "73c0bcb8c258981131c00f09c2c56e300c7225803bd4e1093ef41362e0073d98",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 首次输出 Yes... Ha ha ha... Yes! 与 MUST KILL/REVIEW 等标记及 IMPORTANT 等检索信号保留，邻近中文解释。两处同源角色文件目标字节相同。",
+      "target_sha256": "0840f55f9ef19e97fb9bf6dab627179698742b37ce888ade98697ef57f87cf80",
       "review_record": "docs/localization/REVIEW-skills.json",
       "initial_translator": "translate_skills",
       "reviewer": "root",
@@ -1109,7 +1157,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 67
+    "自然语言与机器片段混合": 70
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
