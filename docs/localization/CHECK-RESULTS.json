@@ -1017,6 +1017,96 @@
       "target_sha256": "87519c38c45b81d71a495f2386de50412b260e91a4dca29c96f0bbfb970040af",
       "source_preview": "apply prove it works. show me the real output, not the build log.",
       "target_preview": "应用“证明它能工作”。展示真实输出，而不是构建日志。"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "index": 18,
+      "language": "text",
+      "source_sha256": "958c75f154db001feddb7f6a9d8860370b022b534c428db8839fdd65389f1c77",
+      "target_sha256": "c2fa9b0d7516d481fb58fed859e04f0b87a4ee66f103313dcd0ffbfb4fb490b4",
+      "source_preview": "/unslop that, no emdashes",
+      "target_preview": "/unslop 清理那段文字，不要用长破折号"
+    },
+    {
+      "path": "docs/guide/README.md",
+      "index": 1,
+      "language": "text",
+      "source_sha256": "181e2708d6fcf3328aa73b121ef9426b53bc480c2705068dc126ac2f0b961e0f",
+      "target_sha256": "64e26021c5c6a8fbd9cbc1acdbe11bfcc81d846d627f257c1181244db38b6619",
+      "source_preview": "/poteto-help which skill should i use to review this branch?",
+      "target_preview": "/poteto-help 我应该用哪项技能审查这个分支？"
+    },
+    {
+      "path": "docs/guide/README.md",
+      "index": 2,
+      "language": "text",
+      "source_sha256": "72e220bcc2c850576bf08937bb6398e78a376fcfd5569b5ef31954bb57575851",
+      "target_sha256": "21c33ec01c511b0b8709178d27b84054c9d627f99846abe5d2e5a6091084f284",
+      "source_preview": "/poteto-mode the export writes duplicate rows when a retry lands mid-run. repro first, then fix and verify.",
+      "target_preview": "/poteto-mode 重试在运行中途到来时，导出会写入重复行。先复现，再修复并验证。"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "index": 1,
+      "language": "markdown",
+      "source_sha256": "1b11ed6fc795b72b9f6f3d1d65a05a51d25a916346ac2a3acfda2b11200aa31d",
+      "target_sha256": "e8abd49d9b6e6b888c781d60d598c8ee79c645929e7211d1c59f14851b565003",
+      "source_preview": "# <Program> plan\n\n<Under ten lines. What changes, for whom, the rule the program enforces, and the PR ids in order.>\n\n## How to read this\n\nOne box is one unit o",
+      "target_preview": "# <Program> 计划\n\n<Under ten lines. What changes, for whom, the rule the program enforces, and the PR ids in order.>\n（少于十行。说明改动、服务对象、计划执行的规则，以及依次排列的 PR ID。）\n\n## H"
+    },
+    {
+      "path": "skills/poteto-mode/references/bugbot-triage.md",
+      "index": 1,
+      "language": "markdown",
+      "source_sha256": "f878297e8cbc2a2e64786b26c96be8981cd232fb49114539cf994293c5b9ba17",
+      "target_sha256": "9fbf444a711f40a827050e4cfe07bac9ae4437af5f7c47680cdc2fb525885712",
+      "source_preview": "### <short pattern name>\n\n- Confidence: candidate | recurring | strong\n- Skip when: <conditions that must be true>\n- Do not skip when: <risk boundaries>\n- Examp",
+      "target_preview": "### <short pattern name>\n\n- 置信度：candidate | recurring | strong\n- 可跳过条件：<conditions that must be true>\n- 不可跳过条件：<risk boundaries>\n- 示例信号：<phrases or code context"
+    },
+    {
+      "path": "skills/setup-pstack/SKILL.md",
+      "index": 1,
+      "language": "",
+      "source_sha256": "74ab2265fe1ecf22139d725b768f489573c88a8764e96822a5f1549a22b71eb6",
+      "target_sha256": "4b68f9308b537dc648b8f0e4b95e96fe518bb4c12a52a26a62b00108cbe0c2cc",
+      "source_preview": "---\ndescription: pstack per-role model choices (overrides skill defaults)\nalwaysApply: true\n---\n# pstack model configuration. One line per role. Delete a line t",
+      "target_preview": "---\ndescription: pstack 各角色模型选择（覆盖技能默认值）\nalwaysApply: true\n---\n# pstack 模型配置。每个角色一行。删除某行即可回退到技能默认值。\n# 值为 `inherit-parent` 或 `auto` 时，该角色使用父聊天模型（省略子代理 `model`）。面"
+    },
+    {
+      "path": "skills/show-me-your-work/SKILL.md",
+      "index": 1,
+      "language": "",
+      "source_sha256": "ac41819385a0ee298ffd913b594559a367272fdb73132fe98bf7f0223be9fb42",
+      "target_sha256": "9c0a97c26ed88760f6b50d02803b23d387befc65b2e54e15094d7da4eff40f6b",
+      "source_preview": "ts\tphase\tdecision\twhy\tevidence\tresult\n2026-05-24T09:02:00Z\tframe\tcounted the work first, about 100 components and roughly 75 hours\twanted to know the size befor",
+      "target_preview": "ts\tphase\tdecision\twhy\tevidence\tresult\n2026-05-24T09:02:00Z\tframe\t先清点工作量，约 100 个组件、75 小时\t开始长期运行前先了解规模\tcommit 3a9f1c2\t发现开始前需理清的 5 个问题\n2026-05-24T09:40:00Z\tharness"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 1,
+      "language": "ts",
+      "source_sha256": "e9050f5c6ab6c60b5d6a5be1da2cf214c81a9e126f9fdd71c90f605d4c24c7e2",
+      "target_sha256": "8b91ad2beb584c168f7f931158a608efd091a40b1ed21a8b0e1d0455fa117eb2",
+      "source_preview": "type AgentId = string & { readonly __brand: \"AgentId\" };\n\nfunction isAgentId(input: string): input is AgentId {\n  return isUUID(input);\n}\n\nfunction parseAgentId",
+      "target_preview": "type AgentId = string & { readonly __brand: \"AgentId\" };\n\nfunction isAgentId(input: string): input is AgentId {\n  return isUUID(input);\n}\n\nfunction parseAgentId"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 2,
+      "language": "ts",
+      "source_sha256": "8cb834e788c4d6076f8e50efa6e8ff4827b7a7cbc6abe9cc12b06a98c3a04a0d",
+      "target_sha256": "e5671de5664cd82faf9ec305df7b0445f69cbcb56da49cb85fbaf0d6f238ca0b",
+      "source_preview": "// Don't. Boolean + optionals lets contradictory states exist.\ntype DiffState = { loading: boolean; diff?: GitDiff; error?: string };\n\n// Do. Only valid states ",
+      "target_preview": "// 错误：布尔值加可选字段允许矛盾状态存在。\ntype DiffState = { loading: boolean; diff?: GitDiff; error?: string };\n\n// 正确：只有有效状态可以存在。\ntype DiffState =\n  | { kind: \"loading\" }\n  | {"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 3,
+      "language": "ts",
+      "source_sha256": "5a50a9699adbb2401a7530a8cc985651a5dd03d32c8b1099b27ac661bdea4e92",
+      "target_sha256": "f72d07a310be6b59c0aca07ec190c9cbc82a0c78d5d8a721e2c023fbd66d044d",
+      "source_preview": "type NonEmpty<T> = [T, ...T[]];\n\n// Don't: T[] plus a length check every caller must repeat\nfunction pickWinner(entries: string[]): string {\n  if (entries.lengt",
+      "target_preview": "type NonEmpty<T> = [T, ...T[]];\n\n// 错误：T[] 加上每个调用者都必须重复的长度检查\nfunction pickWinner(entries: string[]): string {\n  if (entries.length === 0) throw new Error(\"no en"
     }
   ],
   "numeric_candidates": [],

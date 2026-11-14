@@ -1331,6 +1331,116 @@
       },
       "status": "已裁定",
       "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/10-recipes-and-pitfalls.md",
+        "index": 18,
+        "language": "text",
+        "source_sha256": "958c75f154db001feddb7f6a9d8860370b022b534c428db8839fdd65389f1c77",
+        "target_sha256": "c2fa9b0d7516d481fb58fed859e04f0b87a4ee66f103313dcd0ffbfb4fb490b4"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/README.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "181e2708d6fcf3328aa73b121ef9426b53bc480c2705068dc126ac2f0b961e0f",
+        "target_sha256": "64e26021c5c6a8fbd9cbc1acdbe11bfcc81d846d627f257c1181244db38b6619"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/README.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "72e220bcc2c850576bf08937bb6398e78a376fcfd5569b5ef31954bb57575851",
+        "target_sha256": "21c33ec01c511b0b8709178d27b84054c9d627f99846abe5d2e5a6091084f284"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+        "index": 1,
+        "language": "markdown",
+        "source_sha256": "1b11ed6fc795b72b9f6f3d1d65a05a51d25a916346ac2a3acfda2b11200aa31d",
+        "target_sha256": "e8abd49d9b6e6b888c781d60d598c8ee79c645929e7211d1c59f14851b565003"
+      },
+      "status": "已裁定",
+      "reason": "可复制 Agent 计划模板中的自然语言已译；解析器要求的英文标题、标记和规则原句保留并有中文对照；原占位符保护检查及实际 check-plan_template 离线检查通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-mode/references/bugbot-triage.md",
+        "index": 1,
+        "language": "markdown",
+        "source_sha256": "f878297e8cbc2a2e64786b26c96be8981cd232fb49114539cf994293c5b9ba17",
+        "target_sha256": "9fbf444a711f40a827050e4cfe07bac9ae4437af5f7c47680cdc2fb525885712"
+      },
+      "status": "已裁定",
+      "reason": "供人和 Agent 编写共享准则的 Markdown 模板，说明标签翻译；candidate/recurring/strong 分类值与全部占位符保留，没有执行代码或精确解析字段变更。"
+    },
+    {
+      "candidate": {
+        "path": "skills/setup-pstack/SKILL.md",
+        "index": 1,
+        "language": "",
+        "source_sha256": "74ab2265fe1ecf22139d725b768f489573c88a8764e96822a5f1549a22b71eb6",
+        "target_sha256": "4b68f9308b537dc648b8f0e4b95e96fe518bb4c12a52a26a62b00108cbe0c2cc"
+      },
+      "status": "已裁定",
+      "reason": "混合规则模板，只译 frontmatter description 与两条说明注释；角色匹配标签、budget 行、模型 slug、alwaysApply 和其余文本完全一致。"
+    },
+    {
+      "candidate": {
+        "path": "skills/show-me-your-work/SKILL.md",
+        "index": 1,
+        "language": "",
+        "source_sha256": "ac41819385a0ee298ffd913b594559a367272fdb73132fe98bf7f0223be9fb42",
+        "target_sha256": "9c0a97c26ed88760f6b50d02803b23d387befc65b2e54e15094d7da4eff40f6b"
+      },
+      "status": "已裁定",
+      "reason": "说明性的 TSV 日志示例，翻译 decision/why/result 自然语言单元格；六列表头、时间戳、phase 和 evidence 指针保持，未改真实 TSV 接口模板。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 1,
+        "language": "ts",
+        "source_sha256": "e9050f5c6ab6c60b5d6a5be1da2cf214c81a9e126f9fdd71c90f605d4c24c7e2",
+        "target_sha256": "8b91ad2beb584c168f7f931158a608efd091a40b1ed21a8b0e1d0455fa117eb2"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 2,
+        "language": "ts",
+        "source_sha256": "8cb834e788c4d6076f8e50efa6e8ff4827b7a7cbc6abe9cc12b06a98c3a04a0d",
+        "target_sha256": "e5671de5664cd82faf9ec305df7b0445f69cbcb56da49cb85fbaf0d6f238ca0b"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 3,
+        "language": "ts",
+        "source_sha256": "5a50a9699adbb2401a7530a8cc985651a5dd03d32c8b1099b27ac661bdea4e92",
+        "target_sha256": "f72d07a310be6b59c0aca07ec190c9cbc82a0c78d5d8a721e2c023fbd66d044d"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
     }
   ],
   "numbers": [],
