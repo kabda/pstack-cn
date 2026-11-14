@@ -1428,6 +1428,32 @@
       "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
+      "path": "skills/statechart/scripts/statechart",
+      "source_mode": "100755",
+      "source_type": "blob",
+      "source_object": "7d3aeb8c219bf20aea4cbc321892fca9cbd582f1",
+      "source_sha256": "aeffb7077850fd4c225e3d18049ca6ed7b988cf48e88cd8463526a7feaa74d13",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "逐文件检查过注释位置；此文件无可独立翻译的说明性注释，或为脚本入口／测试，运行接口、模型和输出保持原字节。",
+      "target_sha256": "aeffb7077850fd4c225e3d18049ca6ed7b988cf48e88cd8463526a7feaa74d13",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
+      "path": "skills/statechart/scripts/statechart.ts",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "771f4e1094425aa6768bc779cbf59033ebc48fe5",
+      "source_sha256": "9ec96054f28cba0a055fdb34c3df87532c638d65ef7590509e897d5fba43089f",
+      "category": "原样机器内容",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "可执行逻辑、接口、测试断言、快照、夹具、TLA+模型、TLC输出或脚本入口受保护。测试及编译指令文件中的注释与其上下文一同原样保留；此文件未获准修改。",
+      "target_sha256": "9ec96054f28cba0a055fdb34c3df87532c638d65ef7590509e897d5fba43089f",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
       "path": "skills/statechart/scripts/tsconfig.json",
       "source_mode": "100644",
       "source_type": "blob",
@@ -1775,7 +1801,7 @@
     }
   ],
   "summary": {
-    "原样机器内容": 29,
+    "原样机器内容": 31,
     "原样许可证": 1,
     "自然语言与机器片段混合": 85,
     "代码说明注释": 1
