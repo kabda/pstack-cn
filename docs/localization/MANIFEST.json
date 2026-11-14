@@ -578,6 +578,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/poteto-mode/playbooks/autonomous-run.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "6374230d664ba082086e74789e36863f51b1d8b6",
+      "source_sha256": "ded19486ffd21134d269de6650cebeb1d0fb0b6038d7103575a7355782a70ec0",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
+      "target_sha256": "c5594969979a08e635ec749238746e3ab8034ca7ea48fccf15d31545fcc009d2",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/poteto-mode/playbooks/bug-fix.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -658,6 +674,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/poteto-mode/playbooks/pause-safely.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "9d1c5f8303976fff40de099f7f28185909430c11",
+      "source_sha256": "77968cfe5f4a71a8cd33e0ae8ffcdbd88dd693a212c240457773e6c40c96c21d",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
+      "target_sha256": "a308789db8faa46618316831bdbcea9eec022b9070d25232d537ad11fca7e7a1",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/poteto-mode/playbooks/perf-issue.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -716,6 +748,22 @@
       "review_status": "独立审校通过",
       "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
       "target_sha256": "bd8b3e4eb903e89188647d3fcd28834d16d9ea7b548a0f4fe6c0d4cd07990eb2",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/session-pickup.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "5d8846db5359e03adf085886938e02be5fdf1f13",
+      "source_sha256": "33c825a68c1279c3a2e25c53648b11fce5117d49145bdff7f9f0476bbed7b329",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。",
+      "target_sha256": "6475ac4d4bcdd67a303e61afe636d28b5c557dc3c40b01d3b6209aada7a603c8",
       "review_record": "docs/localization/REVIEW-mode.json",
       "initial_translator": "/root/translate_mode",
       "reviewer": "/root/translate_skills",
@@ -7190,7 +7238,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 101,
+    "自然语言与机器片段混合": 104,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
