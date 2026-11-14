@@ -1,0 +1,279 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "translate_docs",
+  "initial_translator": "root",
+  "independent": true,
+  "review_status": "通过",
+  "open_issues": [],
+  "resolved_issues": [
+    "M1: YAML 用户可见链接标题已译，其余字节还原核对一致",
+    "M2: 精确 UI 标签补中文解释",
+    "M3: Git 事故检索词保留英文并配中文",
+    "M4: Notion 章节线索恢复中英并列",
+    "M5: 置信措辞改为证据提示",
+    "M6: Databricks 公司专属表措辞消歧"
+  ],
+  "files": [
+    {
+      "path": "automations/benny/FOR_AGENTS.md",
+      "target_sha256": "f958ec535efb482919f0c82bab43c44b293c702807911830eec618c67c88519d",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/README.md",
+      "target_sha256": "edfcd0c170393fdc95ee9262dcd2b77a2d1abd904709f0ee5b0ee6178bbdbe37",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
+      "target_sha256": "e068fe96c1f61027b367d792a29feede66532a04fba010ea20fdb95872eb38f9",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
+      "target_sha256": "b2864183e10ec60c7761d8b4af07cee29b96d0634a1d51f6ae7572626d95b56c",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "target_sha256": "88dff468af02ff26837cf911bc40c032f20517c7e30deb303dc9c09bf625588a",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
+      "target_sha256": "eab072f07a1072de961995ae316e6f73e5d4a6acf42cb61827ca3d67e31b94db",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/setup-benny/SKILL.md",
+      "target_sha256": "5a4976e677f51f28fa23b6c64772d8e7e611d31d50b1eca2c0048659bd7c241a",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/triage-issue-reports/SKILL.md",
+      "target_sha256": "c8b01700d25a09acc46a68db5d4c50f16a0ad641baadca24d0463c4f36d406a0",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/skills/triage-issue-reports/references/routing.example.md",
+      "target_sha256": "ecb0aa8794b87eb815e77bb7bfda367ad75fef73f53f6b6ea08a388513a3d5fb",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/templates/reproduce-automation-prompt.md",
+      "target_sha256": "5a094e7157714bdf3280131ff2723ec0c9db9cc09da28025f04824823092f17d",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/templates/triage-automation-prompt.md",
+      "target_sha256": "b55fc5d5db866beaab0ae0800ff37c350f186c6b5b7f7631fe890fa121399a95",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/SKILL.md",
+      "target_sha256": "589ea5774faf28acebeef68ffa90b38596292d92a79b361a2f9ed08cfaaad752",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/epistemics.md",
+      "target_sha256": "3277883691a420d461664fa910b62dd815bb1d46cd42ba73c708a2566c5f44ec",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/investigator-prompt.md",
+      "target_sha256": "608549b7597ab6ef491d0d386404e023eac1fab02fa878a50e3766ce662f0a5a",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/source-playbook.md",
+      "target_sha256": "8b735fd9ba8062e8a9e2eea5020b7c751bcde1be170de192bbc860604cf36a31",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/code-archaeology.md",
+      "target_sha256": "5c3e302ae515a58fa6249d9bc6082ebf0d977bd671948ecdf65559209fdd99f7",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/databricks.md",
+      "target_sha256": "ee7c905303c74110e1575bd7045ca50620e748d36ecfc7b919d02b876f367377",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "target_sha256": "474ef2ee97bc1bae464d28223095b8a16fd774c5687fd5492d5bdc54acac2ad2",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/incident-postmortem.md",
+      "target_sha256": "973159713e1954c21d2d135ee3657b5ddf7fc5cd3b571988d46090ae15fa1ca4",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/linear.md",
+      "target_sha256": "6d1df452a198b54bbc552467e1eb77b9b13016a36ed8b064dcd25575be61eedf",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/notion.md",
+      "target_sha256": "a3e1e06d76e7ee224e7adf9f5bdecdc1fff2f5a85d501576a9c4a7ea4dda93db",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "target_sha256": "ea22007ad221e76ada22c319341a4a9de58ac984dcc03b2b36d9e7ffef5be3fc",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/sources/slack.md",
+      "target_sha256": "ffe57180ea6f701a2de824687231f4c96d39d865f94a576946f2c4a9cccab9c2",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/why/references/synthesizer-prompt.md",
+      "target_sha256": "70852eede4ced896d4c900bd4ea6a90f96126aa0cd15688685f59ab00cbaacf5",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "automations/benny/templates/configuration.example.yaml",
+      "target_sha256": "3b2772a34a7d2aee1306aae9bb0a464f8bedcf584c9ffc6b6e49e235d1bb0b92",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+      "target_sha256": "92d610e313613d9c273d1ec41b4b1c084722bfda5882fb2ae41c15241ca69bc0",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/types.ts",
+      "target_sha256": "3411c34838276e59bbce1b78ce3aec6aa09edf6d5de467b26168cc5f71f7253e",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+      "target_sha256": "1ad7f8c31a18ff2700be00a1e807d9824bcc60e11c44c16140b0d132ac9bec91",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    },
+    {
+      "path": "skills/show-me-your-work/scripts/log.sh",
+      "target_sha256": "fa053acbd2b20892932bceccfac95eb88fd98d5dd9550cca7782340f7c7b1203",
+      "reviewer": "translate_docs",
+      "initial_translator": "root",
+      "independent": true,
+      "review_status": "通过",
+      "open_issues": []
+    }
+  ]
+}
