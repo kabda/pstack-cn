@@ -738,6 +738,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "7101aa71dbc08f2b84baa227a7bd589f800f13e8",
+      "source_sha256": "2b4fbb547e5ccfe46d1279d714eb0199d28e995f06bdc4eda4afbca9221fbbe6",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 英文原则/操作手册规范名用于文件名映射，保留并配中文；代码和精确输出标记不译。 模板受 check-plan.mjs 精确解析，受保护英文标题/规则/字段均有中文对照；122围栏裁定中的对应记录与PLAN-CHECK可核验。",
+      "target_sha256": "2ad8fa3e7ced0fdcef8c625d6fdb390ba629f922b44b45562c41f70a37bef9a8",
+      "review_record": "docs/localization/REVIEW-mode.json",
+      "initial_translator": "/root/translate_mode",
+      "reviewer": "/root/translate_skills",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -7350,7 +7366,7 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 111,
+    "自然语言与机器片段混合": 112,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
