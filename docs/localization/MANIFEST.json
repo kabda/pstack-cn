@@ -562,6 +562,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/why/references/sources/datadog.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "536466ddd8ae6543836abb84bdf1efd8e43089ba",
+      "source_sha256": "b139faac5dc11b8f26c8255dce6033c1a6ac143b038d3dd103f2034c5dbec9cd",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "474ef2ee97bc1bae464d28223095b8a16fd774c5687fd5492d5bdc54acac2ad2",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/why/references/sources/incident-postmortem.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -610,6 +626,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "skills/why/references/sources/sentry.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "8200fd9f3abbb7fca76d0079663502b33524bd09",
+      "source_sha256": "2d4f83048eac1df530b399e2aed75dd7c9c18577b7665420aaeb96d0ceb0b702",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。 工具API、Git/SQL语句和英文历史检索关键词保留；伪调用括号中的自然语言、提示词及说明注释已译。置信标签及模板占位符保护。",
+      "target_sha256": "ea22007ad221e76ada22c319341a4a9de58ac984dcc03b2b36d9e7ffef5be3fc",
+      "review_record": "docs/localization/REVIEW-main.json",
+      "initial_translator": "root",
+      "reviewer": "translate_docs",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "skills/why/references/sources/slack.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -645,7 +677,7 @@
   "summary": {
     "原样机器内容": 1,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 38
+    "自然语言与机器片段混合": 40
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
   "unresolved_issues": [],
