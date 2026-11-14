@@ -1441,6 +1441,116 @@
       },
       "status": "已裁定",
       "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 6,
+        "language": "ts",
+        "source_sha256": "ed381f2015eeead98df56430cb16662b35a86302bac1c0682d68d89f7ecc4bb8",
+        "target_sha256": "994456cfcf93ce3f33cc5667723306e09fb9651dc176b6cb65c5562ae47bc017"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 7,
+        "language": "ts",
+        "source_sha256": "85ad6fdd82d51f0e8641302098f1b77dfb95bb57544e7244fcf522c6c9cc5e42",
+        "target_sha256": "578520a0a47b4fbc29ddc3cfa4f574b7c894fa847bf24f392b031afbfdeb22e8"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 8,
+        "language": "ts",
+        "source_sha256": "814811374219409b13adcc12a8ee7505fe5dab7d86c0560f58d01d74c1d92ed9",
+        "target_sha256": "eefb434176384de8e3f8fb43d0300e4a6bfa92225705fe15b412db2c0ecfcbd7"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 9,
+        "language": "ts",
+        "source_sha256": "c1ecae7c9ca03b5a7aa2a75d7ae3569199c62679e8fe3ce9ae3ea0e68dba10c5",
+        "target_sha256": "9b80f336d2023a75a65991b3780ea6c15651c75b7f60cc63043aa935efce904e"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 11,
+        "language": "ts",
+        "source_sha256": "a85b3c405b5ecf2888b7fded7d51696a1bd1ec84cf471734b79fa8b93642c0b1",
+        "target_sha256": "00f5bcd04540844cf49f2efbf54955943446e8654e068cf6cea5d8deb6b6b9e4"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 13,
+        "language": "ts",
+        "source_sha256": "e95adf0ffcba5a790edd2aa3ed95c798120b3f69493d55ab22fc13bb87ca50fc",
+        "target_sha256": "abd8ab581176084be2f2d2ec14c2d844d354a275893b7b0e38e5337aa1949761"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 15,
+        "language": "ts",
+        "source_sha256": "aa92438a4b8fe77879be325bf21740a01e0427a4676f3feb15891a87a86848f4",
+        "target_sha256": "46c37d8779734e2e503689c2b41333571b9fec8d0e4453519e33425450169e31"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 16,
+        "language": "ts",
+        "source_sha256": "01f6260f46ac7a95fffa809db4395eb362a3740a573921edd225f315618179b2",
+        "target_sha256": "5b78d8f6a8b091f740c6274dcf6503a161fef554832c25fc59d90b963594383f"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 17,
+        "language": "ts",
+        "source_sha256": "a390871a8d58f5cab2f69e5393fb77e80e8f93e963729caed26a2ad7a608e4e3",
+        "target_sha256": "2e36f491c67deaf754cbfd6491616ee36583e7d8d8f85760ef6adc3a8aeec197"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/typescript-best-practices/references/patterns.md",
+        "index": 18,
+        "language": "ts",
+        "source_sha256": "cc46fc6d44b628d2e5dff1b529cca592b51fefa320b9bb94ec3dd804a970fa8f",
+        "target_sha256": "8f9e3c636897ad961e4a5c620b0b89b5f632a8a72114b61fb0230cccaf2bfa0a"
+      },
+      "status": "已裁定",
+      "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
     }
   ],
   "numbers": [],
