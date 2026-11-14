@@ -1,0 +1,98 @@
+[
+  {
+    "path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+    "source": "// `gh pr view` reports no review decision as \"\", not null. Only this field does\n// it, so the normalization stays here rather than in nullableEnum, where it\n// would stop a genuinely unexpected rollup state from failing closed.",
+    "target": "// `gh pr view` 用 \"\" 而非 null 表示没有审查决定。只有这个字段如此，\n// 所以在这里归一化，而非放入 nullableEnum；否则真正意外的汇总状态\n// 就无法以关闭方式失败。",
+    "reason": "纯说明性注释，不参与解析和输出；有效代码及其余字节保持一致。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+    "source": "// Every read path classifies the owner-approval gate here, so the rule has one\n// home. A gate that is pending or waits on an owner approval must not count as\n// pending or failed, or the watcher waits on a human.",
+    "target": "// 所有读取路径都在这里对负责人批准门禁分类，让规则只有一处来源。\n// 处于待定或等待负责人批准的门禁，绝不能计为 pending 或 failed，\n// 否则监视器就会等待人工处理。",
+    "reason": "纯说明性注释，不参与解析和输出；有效代码及其余字节保持一致。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+    "source": "  // A base ref belongs to this repository. A fork head with the same name\n  // cannot be its parent, even when that name is the default branch.",
+    "target": "  // 基准引用属于此仓库。同名的分叉头不能作为其父级，\n  // 即便该名称恰好是默认分支。",
+    "reason": "纯说明性注释，不参与解析和输出；有效代码及其余字节保持一致。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/watch-pr/types.ts",
+    "source": " * `frontier` names the lowest unmerged PR that is actually waiting, and\n * `pending` is that PR's checks only. Pooling every row's pending under the\n * bottom PR's number misattributed upstack waits to the frontier.\n *\n * This decision serves single and `--stack` mode. Queued mode deliberately\n * reports its own merge frontier instead: when that PR is blocker-free it\n * emits a merge-queue wait that ignores upstack pending, because upstack\n * checks do not block the frontier's merge. That is the Python watcher's\n * contract, not an attribution bug.",
+    "target": " * `frontier` 指实际正在等待的最低层未合并 PR，\n * `pending` 仅包含该 PR 的检查。将每行的 pending 都汇总到\n * 最底层 PR 编号下，会把栈上层的等待错误归因于前沿。\n *\n * 此决定用于单 PR 和 `--stack` 模式。队列模式则有意报告自己的合并前沿：\n * 当该 PR 没有阻塞项时，它发出合并队列等待，忽略栈上层的 pending，\n * 因为栈上层的检查不会阻止前沿合并。这是 Python 监视器的契约，\n * 并非归因错误。\n *",
+    "reason": "纯说明性注释，不参与解析和输出；有效代码及其余字节保持一致。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "# Main worktree is the first entry; everything else is a candidate.",
+    "target": "# 主工作树是第一项；其他项都是候选。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "# The base drives the merge check. The fetch is best-effort (stale is fine for\n# a first pass) and runs before the check, since -b may name a branch not\n# fetched yet. The explicit refspec creates it even in a single-branch clone.",
+    "target": "# 基准决定合并检查的比较对象。尽力抓取即可（首轮允许信息过期），\n# 且抓取在检查之前进行，因为 -b 可能指定尚未抓取的分支。\n# 显式 refspec 即使在单分支克隆中也能创建该引用。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "# GNU coreutils (Linux, Homebrew gnubin) reads `stat -f` as file system status\n# and `date -r` as a file, so pick the stat and date flags once.",
+    "target": "# GNU coreutils（Linux、Homebrew gnubin）将 `stat -f` 解释为文件系统状态，\n# 将 `date -r` 解释为文件，因此统一选择一次 stat 和 date 参数。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "# PR state by branch, fetched once as [{number, state, head}] with a lowercase\n# state. Origin when its CLI can read this repo's PRs, otherwise gh. Empty when\n# neither can.",
+    "target": "# 按分支获取 PR 状态，一次抓取为 [{number, state, head}]，state 为小写。\n# Origin CLI 能读取此仓库 PR 时使用它，否则使用 gh。\n# 两者都不可用时为空。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "# Chat transcript dirs for a path, per harness: Cursor, Claude Code, Pi.\n# Codex and OpenCode don't group sessions by project, so they aren't searched.",
+    "target": "# 按运行环境查找路径对应的聊天记录目录：Cursor、Claude Code、Pi。\n# Codex 和 OpenCode 不按项目组织会话，因此不搜索。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "\t# Squash-merged branches are not ancestors of the base, so PR state is the\n\t# real signal; merge-base only catches fast-forward/rebase merges.",
+    "target": "\t# 压缩合并的分支不是基准的祖先，因此 PR 状态才是真实信号；\n\t# merge-base 只能识别快进或变基合并。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "\t# Distinguish real WIP (tracked edits) from disposable untracked scratch.",
+    "target": "\t# 区分真正的在制工作（受跟踪修改）和可丢弃的未跟踪临时文件。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+    "source": "\t# Most recent chat whose transcript operated in this worktree. Match path\n\t# followed by \"/\" or a quote so glint-482 does not match glint-482-r37.\n\t# Search the main repo's transcript dirs and the worktree's own.",
+    "target": "\t# 查找记录中最近操作过此工作树的聊天。匹配后接 \"/\" 或引号的路径，\n\t# 以免 glint-482 匹配到 glint-482-r37。\n\t# 同时搜索主仓库和工作树自己的聊天记录目录。",
+    "reason": "纯说明性注释；不在由 sed 输出的 help 区域，不影响代码或接口。"
+  },
+  {
+    "path": "skills/show-me-your-work/scripts/log.sh",
+    "source": "# Append a well-formed row to a show-me-your-work decision log (TSV).",
+    "target": "# 向 show-me-your-work 决策日志（TSV）追加格式正确的一行。",
+    "reason": "纯说明性注释；不参与解析、运行输出或测试。"
+  },
+  {
+    "path": "skills/show-me-your-work/scripts/log.sh",
+    "source": "# Usage: log.sh <logfile> <phase> <decision> <why> <evidence> <result>",
+    "target": "# 用法：log.sh <logfile> <phase> <decision> <why> <evidence> <result>",
+    "reason": "纯说明性注释；不参与解析、运行输出或测试。"
+  },
+  {
+    "path": "skills/show-me-your-work/scripts/log.sh",
+    "source": "# Use `>>` here, never `>`. A network mount can fail this test for a log\n# that exists. Then the cost is one stray header line, not the rows.",
+    "target": "# 此处使用 `>>`，绝不使用 `>`。网络挂载可能让已有日志在此检查中误判。\n# 这样代价只是一条多余表头，而非丢失原有数据行。",
+    "reason": "纯说明性注释；不参与解析、运行输出或测试。"
+  },
+  {
+    "path": "skills/show-me-your-work/scripts/log.sh",
+    "source": "# Strip tabs/newlines/CR so cells stay on one line, and prefix any cell\n# whose first char a spreadsheet would parse as a formula (=, +, -, @)\n# with a single quote. The skill expects this log to be read in\n# spreadsheets, so attacker-controlled evidence (PR titles, filenames,\n# generated text) must not become formula execution when a reviewer\n# opens the file.",
+    "target": "# 去除制表符、换行和 CR，使单元格内容保持在一行。若单元格的首字符\n# 会被电子表格解析为公式（=、+、-、@），则在前面加一个单引号。\n# 此技能预期使用电子表格阅读日志，\n# 因此攻击者可控的证据（PR 标题、文件名、\n# 生成文本）绝不能在审查者打开文件时\n# 变成公式执行。",
+    "reason": "纯说明性注释；不参与解析、运行输出或测试。"
+  }
+]

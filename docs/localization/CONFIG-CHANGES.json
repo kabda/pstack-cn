@@ -1,0 +1,8 @@
+[
+  {
+    "path": "automations/benny/templates/configuration.example.yaml",
+    "source": "  source_link_title: \"Slack report\"",
+    "target": "  source_link_title: \"Slack 报告\"",
+    "reason": "跟踪系统来源链接的用户可见标题；固定基线 git grep 证实仅在示例配置定义，未作为枚举、协议标签或精确匹配值使用。"
+  }
+]
