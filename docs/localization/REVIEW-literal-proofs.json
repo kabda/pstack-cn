@@ -1,0 +1,252 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "translate_docs",
+  "scope": "对主代理30项字面量比较独立复算，非编译或工作流运行",
+  "open_issues": [],
+  "checks": [
+    {
+      "path": "docs/guide/02-poteto-mode.md",
+      "index": 1,
+      "check": "Mermaid 去展示标签后节点/边/语法相同",
+      "passed": true,
+      "source_sha256": "a689401b95dbd53557ce3def073b4c7ac000045c3a69c7155fc7d8d72e34ca11",
+      "target_sha256": "2badaf6ad9508ab6566c9ce59fe59bfa0dd7648b28797d636198f3a754a60eeb"
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "index": 4,
+      "check": "Mermaid 去展示标签后节点/边/语法相同",
+      "passed": true,
+      "source_sha256": "dd170873bebf65a68507aa6ee750ad57b2eb74bdb654bcffa7e6de7bd3e3108d",
+      "target_sha256": "7a5f5e2af11e3ceeba87e4d12a44071225bc179c7430cd95dd4865562ad3faf8"
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "index": 2,
+      "check": "Mermaid 去展示标签后节点/边/语法相同",
+      "passed": true,
+      "source_sha256": "1b06e4445598f3b756204416cc6127157f8db76493ae05e076d47397b8c49e27",
+      "target_sha256": "45d5f9148e7bda7d8a42dd2a494593263802046ecdbc0dfb4c24216740464746"
+    },
+    {
+      "path": "skills/setup-pstack/SKILL.md",
+      "index": 1,
+      "check": "模型规则模板保护字段及身份行相同",
+      "passed": true,
+      "source_sha256": "74ab2265fe1ecf22139d725b768f489573c88a8764e96822a5f1549a22b71eb6",
+      "target_sha256": "4b68f9308b537dc648b8f0e4b95e96fe518bb4c12a52a26a62b00108cbe0c2cc"
+    },
+    {
+      "path": "skills/show-me-your-work/SKILL.md",
+      "index": 1,
+      "check": "TSV 示例六列结构和机器列相同",
+      "passed": true,
+      "source_sha256": "ac41819385a0ee298ffd913b594559a367272fdb73132fe98bf7f0223be9fb42",
+      "target_sha256": "9c0a97c26ed88760f6b50d02803b23d387befc65b2e54e15094d7da4eff40f6b"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 1,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "e9050f5c6ab6c60b5d6a5be1da2cf214c81a9e126f9fdd71c90f605d4c24c7e2",
+      "target_sha256": "8b91ad2beb584c168f7f931158a608efd091a40b1ed21a8b0e1d0455fa117eb2"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 2,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "8cb834e788c4d6076f8e50efa6e8ff4827b7a7cbc6abe9cc12b06a98c3a04a0d",
+      "target_sha256": "e5671de5664cd82faf9ec305df7b0445f69cbcb56da49cb85fbaf0d6f238ca0b"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 3,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "5a50a9699adbb2401a7530a8cc985651a5dd03d32c8b1099b27ac661bdea4e92",
+      "target_sha256": "f72d07a310be6b59c0aca07ec190c9cbc82a0c78d5d8a721e2c023fbd66d044d"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 6,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "ed381f2015eeead98df56430cb16662b35a86302bac1c0682d68d89f7ecc4bb8",
+      "target_sha256": "994456cfcf93ce3f33cc5667723306e09fb9651dc176b6cb65c5562ae47bc017"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 7,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "85ad6fdd82d51f0e8641302098f1b77dfb95bb57544e7244fcf522c6c9cc5e42",
+      "target_sha256": "578520a0a47b4fbc29ddc3cfa4f574b7c894fa847bf24f392b031afbfdeb22e8"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 8,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "814811374219409b13adcc12a8ee7505fe5dab7d86c0560f58d01d74c1d92ed9",
+      "target_sha256": "eefb434176384de8e3f8fb43d0300e4a6bfa92225705fe15b412db2c0ecfcbd7"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 9,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "c1ecae7c9ca03b5a7aa2a75d7ae3569199c62679e8fe3ce9ae3ea0e68dba10c5",
+      "target_sha256": "9b80f336d2023a75a65991b3780ea6c15651c75b7f60cc63043aa935efce904e"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 11,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "a85b3c405b5ecf2888b7fded7d51696a1bd1ec84cf471734b79fa8b93642c0b1",
+      "target_sha256": "00f5bcd04540844cf49f2efbf54955943446e8654e068cf6cea5d8deb6b6b9e4"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 13,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "e95adf0ffcba5a790edd2aa3ed95c798120b3f69493d55ab22fc13bb87ca50fc",
+      "target_sha256": "abd8ab581176084be2f2d2ec14c2d844d354a275893b7b0e38e5337aa1949761"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 15,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "aa92438a4b8fe77879be325bf21740a01e0427a4676f3feb15891a87a86848f4",
+      "target_sha256": "46c37d8779734e2e503689c2b41333571b9fec8d0e4453519e33425450169e31"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 16,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "01f6260f46ac7a95fffa809db4395eb362a3740a573921edd225f315618179b2",
+      "target_sha256": "5b78d8f6a8b091f740c6274dcf6503a161fef554832c25fc59d90b963594383f"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 17,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "a390871a8d58f5cab2f69e5393fb77e80e8f93e963729caed26a2ad7a608e4e3",
+      "target_sha256": "2e36f491c67deaf754cbfd6491616ee36583e7d8d8f85760ef6adc3a8aeec197"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "index": 18,
+      "check": "TS 示例去注释后完整文本相同",
+      "passed": true,
+      "source_sha256": "cc46fc6d44b628d2e5dff1b529cca592b51fefa320b9bb94ec3dd804a970fa8f",
+      "target_sha256": "8f9e3c636897ad961e4a5c620b0b89b5f632a8a72114b61fb0230cccaf2bfa0a"
+    },
+    {
+      "path": "skills/why/references/sources/code-archaeology.md",
+      "index": 1,
+      "check": "Bash 示例非注释文本相同",
+      "passed": true,
+      "source_sha256": "b1eb1855d42b4445ed4d53e6cba2a8ccfdca62b5c774af0ff29e5eae3509082c",
+      "target_sha256": "883310c8e582541f7f84b1736c9d29ef2e776ce3994f7a6f687b65b9df8dd0e9"
+    },
+    {
+      "path": "skills/why/references/sources/code-archaeology.md",
+      "index": 2,
+      "check": "Bash 示例非注释文本相同",
+      "passed": true,
+      "source_sha256": "fc34955c37b385ed8455378aaee6a83cfd68166c647c3e96b645be7d5af9826b",
+      "target_sha256": "611ea285467360af492cab0349297f54e66c8007bfb1cb5b22d2569ab0071897"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "index": 1,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "77e80bca3e574a993942796b221dd6785e2164a132f774c6c6f5bcdf4a55d16f",
+      "target_sha256": "b104d517c9324e290ed45f6dea1386c002107e157cb2e56ff577415468fd55f2"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "index": 2,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "71f0295c924ec76ad58179cdc46cc0f832a75570c9c6f0cf97a29f8c8cce8511",
+      "target_sha256": "97d78646ce152df4a80c8f5afc8b1ec0dfb6b98612af08a7414e45fbdb85141a"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "index": 3,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "723cff6e45916647b110181c455e6fb48e578327677e2e47a68bfebce83ba016",
+      "target_sha256": "a082e6ee5bfb6cd483e71e870f4c7cbb4a852cd16beb1ea087d75488f10ff150"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "index": 4,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "9e741727edf6c69717bf6f4acd19bb79260f909a6bf78db7d20a41a4906b584e",
+      "target_sha256": "1aed7de6d027f90fc1eb425103143c7193f4f292043ee37aa7a5234d7d4f035e"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "index": 5,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "c92009c0e0b796658e3def62f41c12563e3bed03293d1c5c82fa1c9e7de649b0",
+      "target_sha256": "b6c2d043d18d6bc39c0229787de9b39c0c79aaf0ebb58fbe578bbdad75c94ce1"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "index": 6,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "833dcd941755188906db599b12284220ef514fbc71c75a782d34b4f6f18e643b",
+      "target_sha256": "9109eae206bb82a76dd3bef332b4b82c520e16bde076d2c3467847c13bfcb9f8"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "index": 2,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "5843e44b591d53b218c8e4573bb78e69aa2337f9d5d62add6ed0caeb7a3bb2be",
+      "target_sha256": "b628d5202d3ac71128d0e907a6a42d10a93bd424ab1bd30a38b9deef7507ba0c"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "index": 3,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "c05e3780b9979c1004aec5031afedfcc1a89564a7fa64069425b36e82c1d0f36",
+      "target_sha256": "1f5828009c137e71055e331f9b8c607c0e802010d72f41a7f4db43ee980cdd39"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "index": 4,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "3d019b237ee880a0e5bfaa4b46ffed6f6720d9aa2b009fd4e4a8704e978bfb96",
+      "target_sha256": "af2a28d85d1003dceaa6dac0e84f03a442243a0e8821f2082b9434bbc371612b"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "index": 5,
+      "check": "工具用法示例 API 名和次序相同",
+      "passed": true,
+      "source_sha256": "b45bdf1c0d00ac104f3882f061ea63b33068326f817f5d7825a5b8f1b323d129",
+      "target_sha256": "9c8fdae834493accf0a9e11c9f2d9eaf2587e3b6ff2f7e97754e3ec54f709ffe"
+    }
+  ],
+  "review_status": "通过",
+  "initial_translator": "root",
+  "independent": true,
+  "files": []
+}
