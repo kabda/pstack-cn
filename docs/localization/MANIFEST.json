@@ -146,6 +146,22 @@
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
     },
     {
+      "path": "docs/guide/06-verify-and-ship.md",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "ffcdc0d15815cf28c8f4db6230f6cba364436aea",
+      "source_sha256": "3f761af6629969d1d7d957c6a2cdadb41f1c098c14d6bbe8c2a5d3855a4b4409",
+      "category": "自然语言与机器片段混合",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "命令、参数、技能/Agent ID、路径、URL、模型slug、角色匹配行、状态、协议、占位符和数值保护；自然语言已全文译审。英文原标题以显式锚点兼容。具体例外见本记录与对应 BATCH/REVIEW 文档。",
+      "target_sha256": "a53aabb2a3f3e4763ca8fdae4deca3502a3bc7ac1ad31c0c46c8d6ca5c948b12",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": "docs/guide/README.md",
       "source_mode": "100644",
       "source_type": "blob",
@@ -198,6 +214,19 @@
       "review_status": "原样核验通过",
       "retained_reason": "保留二进制原图；另提供中文解读。",
       "target_sha256": "b60587e9a9bbe2550e93be9819cf0cd4acf77d90fac769a0c43d82bd8e34e279",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
+    },
+    {
+      "path": "docs/guide/images/verification.jpg",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "a252ae0b5e14cb6fcef2e3b806bbd66316242446",
+      "source_sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a",
+      "category": "原样图像",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "保留二进制原图；另提供中文解读。",
+      "target_sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a",
       "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
@@ -7517,8 +7546,8 @@
   "summary": {
     "原样机器内容": 422,
     "原样许可证": 1,
-    "自然语言与机器片段混合": 119,
-    "原样图像": 3,
+    "自然语言与机器片段混合": 120,
+    "原样图像": 4,
     "代码说明注释": 4
   },
   "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
