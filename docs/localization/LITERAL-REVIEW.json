@@ -1,0 +1,347 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "root",
+  "basis": "全部翻译文件已有非初译者逐段源译审校；此记录对静态扫描候选逐项裁定并锁定字面量哈希，不是自动翻译完成判定。",
+  "english": [
+    {
+      "candidate": {
+        "path": "agents/comment-sicko.md",
+        "text": "Yes... Ha ha ha... Yes!"
+      },
+      "status": "已裁定",
+      "reason": "源角色明确要求启动后的首次输出精确匹配此句；邻近中文已解释，不可翻译运行输出。"
+    },
+    {
+      "candidate": {
+        "path": "skills/create-verification-skill/references/feature-map-example/create-note.md",
+        "text": "## How to get to it (user POV)"
+      },
+      "status": "已裁定",
+      "reason": "create-verification-skill 与 feature-map README 明确要求四个精确 H2 标题；下一段提供中文标题含义。"
+    },
+    {
+      "candidate": {
+        "path": "skills/create-verification-skill/references/feature-map-example/create-note.md",
+        "text": "## Driving it with control-notes"
+      },
+      "status": "已裁定",
+      "reason": "create-verification-skill 与 feature-map README 明确要求四个精确 H2 标题；下一段提供中文标题含义。"
+    },
+    {
+      "candidate": {
+        "path": "skills/create-verification-skill/references/feature-map-example/search.md",
+        "text": "## How to get to it (user POV)"
+      },
+      "status": "已裁定",
+      "reason": "create-verification-skill 与 feature-map README 明确要求四个精确 H2 标题；下一段提供中文标题含义。"
+    },
+    {
+      "candidate": {
+        "path": "skills/create-verification-skill/references/feature-map-example/search.md",
+        "text": "## Driving it with control-notes"
+      },
+      "status": "已裁定",
+      "reason": "create-verification-skill 与 feature-map README 明确要求四个精确 H2 标题；下一段提供中文标题含义。"
+    },
+    {
+      "candidate": {
+        "path": "skills/no-comments/references/comment-sicko.md",
+        "text": "Yes... Ha ha ha... Yes!"
+      },
+      "status": "已裁定",
+      "reason": "源角色明确要求启动后的首次输出精确匹配此句；邻近中文已解释，不可翻译运行输出。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/synthesizer-prompt.md",
+        "text": "{SKIPPED_SOURCES_WITH_REASONS}"
+      },
+      "status": "已裁定",
+      "reason": "综合者输入的原始占位符，必须保持结构与内容。"
+    }
+  ],
+  "inline": [
+    {
+      "candidate": {
+        "path": "skills/poteto-help/SKILL.md",
+        "source_span": "/poteto-mode write a skill for <workflow>",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode read <thread>. restate the underlying issue in your own words, in plain english.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode investigate why <symptom>. give me what we know, what data you used, and your best hypotheses. don't change any code yet.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "use /how to understand <subsystem>. then use /why to find out why it broke recently.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/recall my work on <topic> from last week, then read <issue>.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/teach me why you implemented it this way and not <other way>. what did you trade off?",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode take over this branch. read the decision log, find what's done, and continue. don't redo finished work.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode <symptom>. repro first, then fix and verify.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode repro this with /verify-<app>. if it repros on main, fix it and show me a video as proof.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode repro <bug> first. if there's a cheap test path, /tdd it. then fix and rerun.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode add <behavior>. <current output> stays byte-identical. verify both.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode move <code> into one module, zero behavior change. record the current output first and prove it's unchanged after.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode <operation> takes <time> on <fixture>. trace it, fix the measured cause, show me before and after.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode prototype a few options for <feature>. take screenshots or videos for me to compare.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode we need <feature>. /architect it first, and answer open questions with prototypes. let me review before proceeding.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode write a tutorial for how i would use <new package> first. then /teach me why it beats the current one.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "ask /arena for a second opinion on this thread and our approach.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode turn this design into a plan. small verifiable PRs, each with its own verification steps.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode plan the migration of <library> to <target>. small verifiable PRs. the result must match the original exactly, bugs included.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/interrogate the whole branch, but skeptically. don't change anything yet. no nitpicks unless it's a real bug or regression.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/create-formal-verification-skill prove <property> holds in <module>, even when <steps> interleave or retry.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/swarm check every package under <dir> against its check script. one worker per package. one report.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode open the pr. small ordered commits, evidence in the description.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode babysit this pr. get it green.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode check on pr <number>. anything outstanding?",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode land the stack.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode im going to bed. <goal> in a fresh worktree off <base>. done means <checks>. keep a decision log. don't ask me before committing. /loop until done. if you're truly stuck after a few hours, stop and write up why.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/show-me-your-work catch me up on what you did last night.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode full autopilot on this queue. each item is independent.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/poteto-mode autopilot these changes, but don't merge. i'll land them.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    },
+    {
+      "candidate": {
+        "path": "skills/poteto-help/references/recipes.md",
+        "source_span": "/reflect capture what we learned so the next run doesn't repeat it.",
+        "count": 1
+      },
+      "status": "已裁定",
+      "reason": "此行内代码跨度是供用户复制的自然语言提示词，已按要求全文译成中文；斜杠命令、必要英文触发词及尖括号占位符保留，非初译者逐段对照已通过。"
+    }
+  ],
+  "fences": [],
+  "numbers": [],
+  "snapshot_scope": "原子提交过程中的部分核对记录；围栏裁定随批次追加，完整验收记录在后续提交。"
+}
