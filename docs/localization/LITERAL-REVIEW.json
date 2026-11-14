@@ -1551,6 +1551,116 @@
       },
       "status": "已裁定",
       "reason": "只译说明性 // 或 /* */ 注释；去除已审阅示例的注释后，含类型、标识符、字符串的其余文本完全相同。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/code-archaeology.md",
+        "index": 1,
+        "language": "bash",
+        "source_sha256": "b1eb1855d42b4445ed4d53e6cba2a8ccfdca62b5c774af0ff29e5eae3509082c",
+        "target_sha256": "883310c8e582541f7f84b1736c9d29ef2e776ce3994f7a6f687b65b9df8dd0e9"
+      },
+      "status": "已裁定",
+      "reason": "仅翻译 Bash 围栏中的说明性整行注释，所有命令、参数、正则和占位符逐字节保持。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/code-archaeology.md",
+        "index": 2,
+        "language": "bash",
+        "source_sha256": "fc34955c37b385ed8455378aaee6a83cfd68166c647c3e96b645be7d5af9826b",
+        "target_sha256": "611ea285467360af492cab0349297f54e66c8007bfb1cb5b22d2569ab0071897"
+      },
+      "status": "已裁定",
+      "reason": "仅翻译 Bash 围栏中的说明性整行注释，所有命令、参数、正则和占位符逐字节保持。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/datadog.md",
+        "index": 1,
+        "language": "",
+        "source_sha256": "77e80bca3e574a993942796b221dd6785e2164a132f774c6c6f5bcdf4a55d16f",
+        "target_sha256": "b104d517c9324e290ed45f6dea1386c002107e157cb2e56ff577415468fd55f2"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/datadog.md",
+        "index": 2,
+        "language": "",
+        "source_sha256": "71f0295c924ec76ad58179cdc46cc0f832a75570c9c6f0cf97a29f8c8cce8511",
+        "target_sha256": "97d78646ce152df4a80c8f5afc8b1ec0dfb6b98612af08a7414e45fbdb85141a"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/datadog.md",
+        "index": 3,
+        "language": "",
+        "source_sha256": "723cff6e45916647b110181c455e6fb48e578327677e2e47a68bfebce83ba016",
+        "target_sha256": "a082e6ee5bfb6cd483e71e870f4c7cbb4a852cd16beb1ea087d75488f10ff150"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/datadog.md",
+        "index": 4,
+        "language": "",
+        "source_sha256": "9e741727edf6c69717bf6f4acd19bb79260f909a6bf78db7d20a41a4906b584e",
+        "target_sha256": "1aed7de6d027f90fc1eb425103143c7193f4f292043ee37aa7a5234d7d4f035e"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/datadog.md",
+        "index": 5,
+        "language": "",
+        "source_sha256": "c92009c0e0b796658e3def62f41c12563e3bed03293d1c5c82fa1c9e7de649b0",
+        "target_sha256": "b6c2d043d18d6bc39c0229787de9b39c0c79aaf0ebb58fbe578bbdad75c94ce1"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/datadog.md",
+        "index": 6,
+        "language": "",
+        "source_sha256": "833dcd941755188906db599b12284220ef514fbc71c75a782d34b4f6f18e643b",
+        "target_sha256": "9109eae206bb82a76dd3bef332b4b82c520e16bde076d2c3467847c13bfcb9f8"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/sentry.md",
+        "index": 2,
+        "language": "",
+        "source_sha256": "5843e44b591d53b218c8e4573bb78e69aa2337f9d5d62add6ed0caeb7a3bb2be",
+        "target_sha256": "b628d5202d3ac71128d0e907a6a42d10a93bd424ab1bd30a38b9deef7507ba0c"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
+    },
+    {
+      "candidate": {
+        "path": "skills/why/references/sources/sentry.md",
+        "index": 3,
+        "language": "",
+        "source_sha256": "c05e3780b9979c1004aec5031afedfcc1a89564a7fa64069425b36e82c1d0f36",
+        "target_sha256": "1f5828009c137e71055e331f9b8c607c0e802010d72f41a7f4db43ee980cdd39"
+      },
+      "status": "已裁定",
+      "reason": "工具用法示意而非可执行调用；仅翻译括号内自然语言参数说明和查询示例，API 工具名、标识符和检索目标保留。"
     }
   ],
   "numbers": [],
