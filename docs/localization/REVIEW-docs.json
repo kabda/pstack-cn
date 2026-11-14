@@ -1,0 +1,281 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "reviewer": "translate_mode",
+  "initial_translator": "translate_docs",
+  "independent": true,
+  "status": "通过",
+  "unresolved_issues": [],
+  "method": "全部文件逐段源译对照，条件/权限/步骤/停止边界/数字/身份保护检查，25文件全部覆盖；已复核主代理修复。六SVG与七原始位图独立可视检查。",
+  "files": [
+    {
+      "path": "README.md",
+      "target_sha256": "a34632dcdb5cac9cd5d91f914a5f83301bed658d9c193fdbffe9a89369dd5a72",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "MIRROR.md",
+      "target_sha256": "031046dde90855e938cc70fa62b41244129ee7f308c5e5403f6c27099ffa9d0a",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "SYNC-LOG.md",
+      "target_sha256": "0efaccdef374f62e069a24d566d5661b7936a0b47b204ce70173734f223707a7",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "agents/comment-sicko.md",
+      "target_sha256": "0840f55f9ef19e97fb9bf6dab627179698742b37ce888ade98697ef57f87cf80",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "agents/poteto-agent.md",
+      "target_sha256": "2b0f1b105c9b88cd0d4c44e8882a37487ad5b61670b4d998ab06f57b5b3fd607",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/harness/claude-code.md",
+      "target_sha256": "4fc63d326b7c943b4c6c32bb31bcee410cd12db92ed44e8d0f68f53993d1ed2c",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/01-setup.md",
+      "target_sha256": "5f3855024e851340d474e2377f1cdfae13b0e5ad2e362f4abe8de1e1cf2e55ce",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/02-poteto-mode.md",
+      "target_sha256": "aedcddd31e0d72f6f94059f82a123eb3fe06e3a95e9d7688895f9b9654a15a27",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "target_sha256": "2b3bcf71bc47b209c391fee6412341cd813f7e2100f9850f479b9820fc88a315",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "target_sha256": "affdedae2331a432879abaf80d425a5fdf1d74b9744131cd992925e6c8902b88",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/05-build-and-clean.md",
+      "target_sha256": "8b2e4f9db2f970405ecb647413ee6bd5b09302462d6793ea718a9fedee7c62e5",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/06-verify-and-ship.md",
+      "target_sha256": "a53aabb2a3f3e4763ca8fdae4deca3502a3bc7ac1ad31c0c46c8d6ca5c948b12",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "target_sha256": "3dc316c95de8c0546d31f30f3dbb5a15f4729b8d58807f2cd164d6e0d2d8f88e",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/08-principles.md",
+      "target_sha256": "c6f4c1724d48b23f0a3118da8c21e5cb4a1e9b23ca16c89df0736fc128bfd4b3",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "target_sha256": "60344b97bb242411c53559df6ba13f9e4a571287216040fdd2eb02e8f3eb3422",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "target_sha256": "524ebce14fec3aed8ccdde3bb95f08e70628820f81466dc79018d8d73702ff75",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/README.md",
+      "target_sha256": "c05c96e17adb7e25920a6db191a5a98849b9f2238220b0ec6ee0bcb0ed4ed736",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "plugin.json",
+      "target_sha256": "e4ac9ab4e26865faac5a139c6a3bb9af1f0f244168fd880defd522321e1a3689",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": ".cursor-plugin/plugin.json",
+      "target_sha256": "201e2ae1d6dea2632b388cde0ab877d4a7aa7d68e0e6876ef2045b9acd8aabde",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "mirror-assets/header-dark.svg",
+      "target_sha256": "4cbdec4eba4673b3fd50a05d5abb0c3ed44a2b1bdd4bd262c6700b5d339ebbec",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "mirror-assets/header-light.svg",
+      "target_sha256": "bae83bd55e2e3af3b9dc5b19bce42acb401a6d14b636b75f9c58879fdc460c3b",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "mirror-assets/sponsor-inbox-dark.svg",
+      "target_sha256": "3e6a12cd00ee92ed6ed1c627758ec598dcae5ffc060781e72ed2f92910f76cfe",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "mirror-assets/sponsor-inbox-light.svg",
+      "target_sha256": "74ba67c2cfb0b3782c863cc9b25232de1e6bf551397e2e9520201c4382c81b55",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "mirror-assets/sponsor-plannotator-dark.svg",
+      "target_sha256": "ea17f2537b90c6914a92d116f8f601fd77461e3eb45e029bc422329000ac5bdb",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "mirror-assets/sponsor-plannotator-light.svg",
+      "target_sha256": "dfab86988c39329d91489119c19c35ab42dc1006d67125bdfcd24bfe71023b3b",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs",
+      "review_status": "通过",
+      "unresolved_issues": []
+    },
+    {
+      "path": "assets/logo.png",
+      "target_sha256": "672f6791589ef758b0ced2c4c477913fa2758623c438e265639a0d539ce90695",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/images/design.jpg",
+      "target_sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/images/overnight.jpg",
+      "target_sha256": "4b4405e4df8925c5b3abbe702f681af0f3b1f5f32271b599f95717f578f1a0c8",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/images/recipes.jpg",
+      "target_sha256": "9fa2d51b476635712737795ddef81806efaa0086bb3bfa9f9f45695d9ab0f8e8",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/images/router.jpg",
+      "target_sha256": "525843055a4efd2b10acc50a8652fd02b0834ea733a8a2f895c1eb89036017da",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/images/understanding.jpg",
+      "target_sha256": "b60587e9a9bbe2550e93be9819cf0cd4acf77d90fac769a0c43d82bd8e34e279",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    },
+    {
+      "path": "docs/guide/images/verification.jpg",
+      "target_sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a",
+      "reviewer": "translate_mode",
+      "initial_translator": "translate_docs（图像解读）",
+      "review_status": "通过",
+      "category": "原样位图及中文解读审校",
+      "retained_reason": "图像二进制原样，品牌图无自然英文，六插图关键英文已在 IMAGE-NOTES 完整中文解读并逐图核对。",
+      "unresolved_issues": []
+    }
+  ]
+}
