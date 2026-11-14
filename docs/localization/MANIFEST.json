@@ -8,6 +8,22 @@
   "target_status_at_start": "clean; unborn HEAD; only .git",
   "files": [
     {
+      "path": ".cursor-plugin/plugin.json",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "1295f46878218d568a037344877f0b603a887696",
+      "source_sha256": "d9e56eed06fc8f8920ff532873a403355d35f2905d2c86d1968ec4da0d1a5191",
+      "category": "插件元数据",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "仅翻译 description，其余字段保持一致。",
+      "target_sha256": "201e2ae1d6dea2632b388cde0ab877d4a7aa7d68e0e6876ef2045b9acd8aabde",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
       "path": ".gitignore",
       "source_mode": "100644",
       "source_type": "blob",
@@ -112,6 +128,19 @@
       "initial_translator": "translate_docs",
       "reviewer": "translate_mode",
       "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "assets/logo.png",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "3754e87cb0e1362f17428bc84c661166ee145156",
+      "source_sha256": "672f6791589ef758b0ced2c4c477913fa2758623c438e265639a0d539ce90695",
+      "category": "原样图像",
+      "status": "已保留",
+      "review_status": "原样核验通过",
+      "retained_reason": "保留二进制原图；另提供中文解读。",
+      "target_sha256": "672f6791589ef758b0ced2c4c477913fa2758623c438e265639a0d539ce90695",
+      "review_method": "固定 Git blob SHA-256 与目标字节完全一致；路径、类型与可执行位同时核验。"
     },
     {
       "path": "automations/benny/FOR_AGENTS.md",
@@ -666,6 +695,22 @@
       "review_status": "独立审校通过",
       "retained_reason": "检查可见文字和无障碍描述；保护图形、品牌和 ID。",
       "target_sha256": "dfab86988c39329d91489119c19c35ab42dc1006d67125bdfcd24bfe71023b3b",
+      "review_record": "docs/localization/REVIEW-docs.json",
+      "initial_translator": "translate_docs",
+      "reviewer": "translate_mode",
+      "review_method": "全文逐段源译对照；审校者独立于初译者；最终目标 SHA-256 已锁定，所有问题已关闭。"
+    },
+    {
+      "path": "plugin.json",
+      "source_mode": "100644",
+      "source_type": "blob",
+      "source_object": "14b42b7225231a2f01ab225df1d9d13839c6d616",
+      "source_sha256": "ebc3ee08ceff88b13521cabd714d92b972fbe9c5b77116f94872ee848b225b31",
+      "category": "插件元数据",
+      "status": "已翻译",
+      "review_status": "独立审校通过",
+      "retained_reason": "仅翻译 description，其余字段保持一致。",
+      "target_sha256": "e4ac9ab4e26865faac5a139c6a3bb9af1f0f244168fd880defd522321e1a3689",
       "review_record": "docs/localization/REVIEW-docs.json",
       "initial_translator": "translate_docs",
       "reviewer": "translate_mode",
@@ -7986,16 +8031,16 @@
     }
   ],
   "summary": {
+    "插件元数据": 2,
     "原样机器内容": 422,
     "原样许可证": 1,
     "自然语言与机器片段混合": 139,
+    "原样图像": 7,
     "混合配置模板": 1,
-    "原样图像": 6,
     "SVG 图像": 6,
     "代码说明注释": 4
   },
-  "completion_scope": "初始导入尚在分批提交；此提交不代表整个本地化交付已全部进入Git历史。",
-  "unresolved_issues": [],
-  "snapshot_scope": "原子提交过程中的部分清单快照；只列本提交及祖先已收入历史的文件，完整验收共582文件。",
-  "expected_baseline_files": 582
+  "completion_scope": "固定基线全部文件；初译验收后获用户授权按职责原子化中文本地提交；不推送、不创建PR、不发布",
+  "acceptance_date": "2026-11-14",
+  "unresolved_issues": []
 }
