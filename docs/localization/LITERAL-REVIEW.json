@@ -781,6 +781,116 @@
       },
       "status": "已裁定",
       "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 3,
+        "language": "text",
+        "source_sha256": "fccd5dbb874ce745e9d259083d418b7584cdefd192672c9cfb40a8e6fd2dc0ab",
+        "target_sha256": "ac8e0570404cfe6dfb4d7a1ba366755666ab8f6e2f1bedf7f8780fef36c7f016"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 4,
+        "language": "text",
+        "source_sha256": "a63cd3876a92a25c762cfaa71d334291db991eac32c00d63e5dfd13f7058bc7f",
+        "target_sha256": "d7dcf22fd1e25a8b05e647fa3820ae76f2cbfeebe995166c0f3b4c5eeba5a7d5"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "e36ba97deacfca2a364453acc391a99d19036e39fde230ac23241cfb0a6f4e62",
+        "target_sha256": "398532cd7bf4e9acbd5f159b3f796fc8cf9bdeb80bf1e35c37e109d39c7ce429"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 6,
+        "language": "text",
+        "source_sha256": "db4e5d19d12597322237cd5e49c2d3278a70236da4be22944a33c37e6d3ea0fc",
+        "target_sha256": "96b60a3492d0ffef670837a674183c9f064ca6103b46ddb12581591195a4e7ff"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 7,
+        "language": "text",
+        "source_sha256": "5f309f024ebfe9eb4567a6517593fa8374456e3ff685fe081fc8be37c576b249",
+        "target_sha256": "37ea66b9e399d23e2137afe6b669cc74e30fe1fe16ce21f4795944692be45e25"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/05-build-and-clean.md",
+        "index": 8,
+        "language": "text",
+        "source_sha256": "374d4c027099ea904c51a1e4f4f28aac11c19b8acda97e1ef7f247b697c6a728",
+        "target_sha256": "2ccdc996d485e0092b99e139245c27bc107f11983b0b4083f5a5897d0f00c4ca"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 1,
+        "language": "text",
+        "source_sha256": "19818bddeea34fb2c79f53093476ea96dacd127bd6e4cba863528ccbe7e46e66",
+        "target_sha256": "1028c717f6095fc58009322c2d00bcbaaeec4d2df70dac2fee625f18b5d5763e"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 2,
+        "language": "text",
+        "source_sha256": "ffefe225b0ba0b0163649f2c8d0bd0da79811bc995004afa6449f3cab7dcf302",
+        "target_sha256": "d11e7580bd6d931f2c72ae8cd16cabd976313541ffead611308adb0df3d64e5d"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 4,
+        "language": "text",
+        "source_sha256": "30cafdaffe0da8af58e2ab75f2654e6e920b6216d66d7d092093f21ff4205a08",
+        "target_sha256": "736f699d71c09476d47502a40ac7548ffca0208b75f21b724f16da9f626c83d3"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
+    },
+    {
+      "candidate": {
+        "path": "docs/guide/06-verify-and-ship.md",
+        "index": 5,
+        "language": "text",
+        "source_sha256": "29fc545287dd8306f0a45ec49249e6328ea298933ed09066822d73501009330c",
+        "target_sha256": "742cd1fb86a22bd1cec896ea450dca06083888319694e7d339c2b4916208da9b"
+      },
+      "status": "已裁定",
+      "reason": "供用户复制给 Agent 的自然语言提示词或提示词对照表，全文中文化；命令、参数、身份、占位符和数值保持，独立源译审校已逐段核对。"
     }
   ],
   "numbers": [],
