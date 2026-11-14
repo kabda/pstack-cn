@@ -1,0 +1,11 @@
+{
+  "purpose": "仅验证文档模板兼容性；不执行模板中的命令和工作流",
+  "command": [
+    "node",
+    "/Users/zxj/Developer/open-source/pstack-cn/skills/poteto-mode/scripts/check-plan.mjs",
+    "/Users/zxj/Developer/open-source/pstack-cn/docs/localization/plan-template-example.md"
+  ],
+  "exit_code": 0,
+  "stdout": "example (example)  boxes=27  files=3 build=1 you-see=1 verify-unit=1 verify-live=10 verify-perf=4 review-gate=3 merge=4\n1 PR sections, 0 problems\n",
+  "stderr": ""
+}

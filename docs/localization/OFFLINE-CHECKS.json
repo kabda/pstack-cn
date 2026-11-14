@@ -1,0 +1,43 @@
+{
+  "source_commit": "9cd6939b766cb920f1c44970d7c7ee1ec28bd0d6",
+  "checks": [
+    {
+      "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+      "command": [
+        "bash",
+        "-n",
+        "skills/poteto-mode/scripts/worktree-audit.sh"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "path": "skills/show-me-your-work/scripts/log.sh",
+      "command": [
+        "bash",
+        "-n",
+        "skills/show-me-your-work/scripts/log.sh"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+      "syntax": "通过",
+      "compiled_js_equal": true
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/types.ts",
+      "syntax": "通过",
+      "compiled_js_equal": true
+    }
+  ],
+  "check_plan_tests": {
+    "command": "rtk proxy bun test skills/poteto-mode/scripts/check-plan.test.ts",
+    "result": "7 pass, 0 fail, 25 expect() calls",
+    "execution": "已实际运行；仅读写临时计划并调用本地只读检查器，无安装、联网或快照更新。"
+  },
+  "limitations": "Bash -n和Bun转译属于语法/相同性检查，不是外部服务或真实工作流的运行验证。"
+}
